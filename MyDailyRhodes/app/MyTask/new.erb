@@ -1,0 +1,61 @@
+<div class="pageTitle">
+  <h1>New <%= @mytask.title %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a class="cancel" href="<%= url_for :action => :index %>">Cancel</a>
+  </div>
+</div>
+
+<div class="content">
+  <form method="POST" action="<%= url_for :action => :create %>">
+    <input type="hidden" name="id" value="<%= @mytask.object %>"/>
+    <ul>
+      
+          <li>
+            <label for="mytask[name]" class="fieldLabel">Name</label>
+            <input type="text" name="mytask[name]" <%=
+            placeholder("Name") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[description]" class="fieldLabel">Description</label>
+            <input type="text" name="mytask[description]" <%=
+            placeholder("Description") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[startdate]" class="fieldLabel">Startdate</label>
+            <input type="text" name="mytask[startdate]" <%=
+            placeholder("Startdate") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[enddate]" class="fieldLabel">Enddate</label>
+            <input type="text" name="mytask[enddate]" <%=
+            placeholder("Enddate") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[priority]" class="fieldLabel">Priority</label>
+            <input type="text" name="mytask[priority]" <%=
+            placeholder("Priority") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[category]" class="fieldLabel">Category</label>
+            <input type="text" name="mytask[category]" <%=
+            placeholder("Category") %> />
+          </li>
+      
+          <li>
+            <label for="mytask[location]" class="fieldLabel">Location</label>
+            <input type="text" name="mytask[location]" <%=
+            placeholder("Location") %> />
+          </li>
+      
+    </ul>
+    <input type="submit" class="standardButton" value="Create"/>
+  </form>
+</div>
