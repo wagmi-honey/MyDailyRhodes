@@ -1,44 +1,49 @@
-I 08/17/2011 14:56:53:682 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:53:682 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:53:692 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:53:692 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:53:692 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:53:846 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:53:846 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:53:846 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:53:856 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:53:856 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:53:856 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:54:021 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:54:021 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:54:021 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:54:031 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:54:031 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:54:031 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:54:182 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:54:182 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:54:192 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:54:202 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:54:202 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:54:202 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:54:358 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:54:358 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:54:378 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:54:378 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:54:378 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:54:378 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:54:542 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:54:542 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:54:562 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:54:562 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:54:562 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:54:562 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:55:055 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:55:055 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:55:055 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:55:065 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:55:065 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:55:065 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
+I 08/17/2011 15:17:20:478 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:20:480 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:20:483 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:20:483 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:20:483 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:20:483 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:20:485 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:20:656 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:20:656 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:20:656 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:20:661 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:20:661 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:20:661 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:20:661 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:20:663 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:20:663 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:20:820 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:20:822 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:20:822 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:20:825 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:20:827 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:20:827 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:20:827 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:20:827 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:20:827 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:20:996 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:20:998 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:20:998 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:21:001 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:21:003 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:21:003 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:21:003 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:21:003 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:21:003 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:22:671 00001a54            RhodesApp| callAppActiveCallback
+I 08/17/2011 15:17:22:671 00001a54         AppCallbacks| addCommand: APP-DEACTIVATED
+I 08/17/2011 15:17:22:671 00001a54                  Net| Method: GET;Url: http://127.0.0.1:61792/system/deactivateapp
+I 08/17/2011 15:17:22:673 000004c4         AppCallbacks| process command: APP-DEACTIVATED
+I 08/17/2011 15:17:22:673 000004c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/17/2011 15:17:22:676 0000187c           HttpServer| Process URI: '/system/deactivateapp'
+I 08/17/2011 15:17:22:676 00001a54                  Net| Method: GET;Url: http://127.0.0.1:61792/system/uidestroyed
+I 08/17/2011 15:17:22:678 0000187c           HttpServer| Process URI: '/system/uidestroyed'
+I 08/17/2011 15:17:22:678 000004c4         AppCallbacks| Thread shutdown
+I 08/17/2011 15:17:22:681 00001a54           HttpServer| Stopping server...
+I 08/17/2011 15:17:22:681 0000187c            RhodesApp| RhodesApp thread shutdown
+val_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
 I 08/17/2011 14:56:55:390 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
 I 08/17/2011 14:56:55:390 00001b00                  APP| RHO serve: /app/Settings/do_login
 I 08/17/2011 14:56:55:390 00001b00              RhoRuby| require_compiled: Settings/controller
@@ -116,377 +121,380 @@ I 08/17/2011 14:56:59:191 00001b00           HttpServer| Process URI: '/system/u
 I 08/17/2011 14:56:59:191 00001c1c         AppCallbacks| Thread shutdown
 I 08/17/2011 14:56:59:191 0000021c           HttpServer| Stopping server...
 I 08/17/2011 14:56:59:201 00001b00            RhodesApp| RhodesApp thread shutdown
-         RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 13:56:24:522 000019e8              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 13:56:24:522 000019e8                  APP| Params: {"login"=>"test", "password"=>"admin"}
-I 08/17/2011 13:56:24:522 000019e8  SyncThread.cpp: 225| STOP sync
-I 08/17/2011 13:56:24:522 000019e8                 Sync| addCommand: Login
-I 08/17/2011 13:56:24:522 000019e8                 Sync| Command already exists in queue. Skip it.
-I 08/17/2011 13:56:24:522 000019e8                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
-I 08/17/2011 13:56:24:660 000019e8           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 13:56:24:660 000019e8                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 13:56:24:660 000019e8              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 13:56:24:670 000019e8              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 13:56:24:670 000019e8                  APP| Params: {"login"=>"test", "password"=>"admin"}
-I 08/17/2011 13:56:24:670 000019e8  SyncThread.cpp: 225| STOP sync
-I 08/17/2011 13:56:24:670 000019e8                 Sync| addCommand: Login
-I 08/17/2011 13:56:24:670 000019e8                 Sync| Command already exists in queue. Skip it.
-I 08/17/2011 13:56:24:670 000019e8                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
-I 08/17/2011 13:56:24:806 000019e8           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 13:56:24:806 000019e8                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 13:56:24:806 000019e8              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 13:56:24:816 000019e8              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 13:56:24:816 000019e8                  APP| Params: {"login"=>"test", "password"=>"admin"}
-I 08/17/2011 13:56:24:816 000019e8  SyncThread.cpp: 225| STOP sync
-I 08/17/2011 13:56:24:816 000019e8                 Sync| addCommand: Login
-I 08/17/2011 13:56:24:816 000019e8                 Sync| Command already exists in queue. Skip it.
-I 08/17/2011 13:56:24:816 000019e8                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
-I 08/17/2011 13:56:24:970 000019e8           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 13:56:24:970 000019e8                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 13:56:24:970 000019e8              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 13:56:24:970 000019e8              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 13:56:24:970 000019e8                  APP| Params: {"login"=>"test", "password"=>"admin"}
-I 08/17/2011 13:56:24:970 000019e8  SyncThread.cpp: 225| STOP sync
-I 08/17/2011 13:56:24:970 000019e8                 Sync| addCommand: Login
-I 08/17/2011 13:56:24:970 000019e8                 Sync| Command already exists in queue. Skip it.
-I 08/17/2011 13:56:24:970 000019e8                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
-I 08/17/2011 13:56:26:083 00001908            RhodesApp| callAppActiveCallback
-I 08/17/2011 13:56:26:083 00001908         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/17/2011 13:56:26:083 00001908                  Net| Method: GET;Url: http://127.0.0.1:60718/system/deactivateapp
-I 08/17/2011 13:56:26:083 00001924         AppCallbacks| process command: APP-DEACTIVATED
-I 08/17/2011 13:56:26:083 00001924         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 13:56:26:083 000019e8           HttpServer| Process URI: '/system/deactivateapp'
-I 08/17/2011 13:56:26:083 00001908                  Net| Method: GET;Url: http://127.0.0.1:60718/system/uidestroyed
-I 08/17/2011 13:56:26:083 000019e8           HttpServer| Process URI: '/system/uidestroyed'
-I 08/17/2011 13:56:26:083 00001924         AppCallbacks| Thread shutdown
-I 08/17/2011 13:56:26:083 00001908           HttpServer| Stopping server...
-I 08/17/2011 13:56:26:083 000019e8            RhodesApp| RhodesApp thread shutdown
-I 08/17/2011 14:56:17:229 00000ff8      Rhodes.cpp: 178| Rhodes started
-I 08/17/2011 14:56:17:239 0000075c         AppCallbacks| Starting main routine...
-I 08/17/2011 14:56:17:239 0000075c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:17:239 00000ff8            RhodesApp| Trying to get free listening port.
-I 08/17/2011 14:56:17:249 00000ff8            RhodesApp| Trying to bind of 0 port...
-I 08/17/2011 14:56:17:249 00000ff8            RhodesApp| Got port to bind on: 61651
-I 08/17/2011 14:56:17:249 00000ff8            RhodesApp| Free listening port: 61651
-I 08/17/2011 14:56:17:359 00000ff8            RhodesApp| callAppActiveCallback
-I 08/17/2011 14:56:17:359 00000ff8         AppCallbacks| addCommand: APP-ACTIVATED
-I 08/17/2011 14:56:17:359 0000075c         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/17/2011 14:56:17:359 0000075c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:17:359 00000ff8         AppCallbacks| addCommand: UI-CREATED
-I 08/17/2011 14:56:17:359 0000075c         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/17/2011 14:56:17:359 00000ff8      MainWindowProxy| navigate: 'about:blank'
-I 08/17/2011 14:56:17:359 0000075c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:17:359 00000ff8           MainWindow| WebView: loading...
-I 08/17/2011 14:56:17:359 00000ff8           MainWindow| WebView: URL changed
-I 08/17/2011 14:56:17:359 00001bfc            RhodesApp| Starting RhodesApp main routine...
-I 08/17/2011 14:56:17:359 00000ff8           MainWindow| WebView: loaded 
-I 08/17/2011 14:56:17:369 00001bfc              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
-I 08/17/2011 14:56:17:369 00001bfc              RhoRuby| require_compiled: rhoframework
-I 08/17/2011 14:56:17:369 00001bfc              RhoRuby| require_compiled: rational
-I 08/17/2011 14:56:17:379 00001bfc              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 08/17/2011 14:56:17:379 00001bfc              RhoRuby| require_compiled: rhodes
-I 08/17/2011 14:56:17:379 00001bfc              RhoRuby| require_compiled: rhom/rhom_object
-I 08/17/2011 14:56:17:389 00001bfc              RhoRuby| require_compiled: rhofsconnector
-I 08/17/2011 14:56:17:389 00001bfc              RhoRuby| require_compiled: rho/rhofsconnector
-I 08/17/2011 14:56:17:389 00001bfc              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 08/17/2011 14:56:17:419 00001bfc              RhoRuby| require_compiled: rhom/rhom
-I 08/17/2011 14:56:17:429 00001bfc              RhoRuby| require_compiled: rhom/rhom_model
-I 08/17/2011 14:56:17:429 00001bfc              RhoRuby| require_compiled: rhom
-I 08/17/2011 14:56:17:429 00001bfc              RhoRuby| require_compiled: rho/rhoapplication
-I 08/17/2011 14:56:17:439 00001bfc              RhoRuby| require_compiled: rholang/localization_simplified
-I 08/17/2011 14:56:17:439 00001bfc                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:17:439 00001bfc                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/17/2011 14:56:17:439 00001bfc                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/17/2011 14:56:17:439 00001bfc                  APP| Load english resources.
-I 08/17/2011 14:56:17:439 00001bfc              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
-I 08/17/2011 14:56:17:439 00001bfc              RhoRuby| require_compiled: rho/rhomsg
-I 08/17/2011 14:56:17:449 00001bfc                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:17:449 00001bfc                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
-I 08/17/2011 14:56:17:449 00001bfc              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
-I 08/17/2011 14:56:17:449 00001bfc              RhoRuby| require_compiled: rho/rhotabbar
-I 08/17/2011 14:56:17:449 00001bfc              RhoRuby| require_compiled: rho/rhotoolbar
-I 08/17/2011 14:56:17:449 00001bfc              RhoRuby| require_compiled: indifferent_access
-I 08/17/2011 14:56:17:459 00001bfc              RhoRuby| require_compiled: rho/rhosupport
-I 08/17/2011 14:56:17:459 00001bfc              RhoRuby| require_compiled: rho/rhocontroller
-I 08/17/2011 14:56:17:469 00001bfc              RhoRuby| require_compiled: rho/render
-I 08/17/2011 14:56:17:469 00001bfc              RhoRuby| require_compiled: rho/rho
-I 08/17/2011 14:56:17:489 00001bfc              RhoRuby| require_compiled: rho/rhoerror
-I 08/17/2011 14:56:17:489 00001bfc                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:17:489 00001bfc                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
-I 08/17/2011 14:56:17:489 00001bfc              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
-I 08/17/2011 14:56:17:489 00001bfc              RhoRuby| require_compiled: rhom/rhom_source
-E 08/17/2011 14:56:17:489 00001bfc              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 08/17/2011 14:56:17:499 00001bfc              RhoRuby| require_compiled: rho/rhoviewhelpers
-I 08/17/2011 14:56:17:499 00001bfc              RhoRuby| require_compiled: rho
-I 08/17/2011 14:56:17:499 00001bfc              RhoRuby| require_compiled: debugger
-I 08/17/2011 14:56:17:499 00001bfc              RhoRuby| require_compiled: uri
-I 08/17/2011 14:56:17:509 00001bfc              RhoRuby| require_compiled: uri/common
-I 08/17/2011 14:56:17:509 00001bfc              RhoRuby| require_compiled: uri/generic
-I 08/17/2011 14:56:17:529 00001bfc              RhoRuby| require_compiled: uri/ftp
-I 08/17/2011 14:56:17:529 00001bfc              RhoRuby| require_compiled: uri/http
-I 08/17/2011 14:56:17:539 00001bfc              RhoRuby| require_compiled: uri/https
-I 08/17/2011 14:56:17:539 00001bfc              RhoRuby| require_compiled: uri/ldap
-I 08/17/2011 14:56:17:539 00001bfc              RhoRuby| require_compiled: uri/ldaps
-I 08/17/2011 14:56:17:539 00001bfc              RhoRuby| require_compiled: uri/mailto
-I 08/17/2011 14:56:17:549 00001bfc              RhoRuby| require_compiled: timeout
-I 08/17/2011 14:56:17:549 00001bfc                  APP| [Debugger] Opening connection
-I 08/17/2011 14:56:18:549 00001bfc                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 08/17/2011 14:56:18:549 00001bfc                  APP| RHO loaded
-I 08/17/2011 14:56:18:549 00001bfc                  APP| Calling RHO.initialize
-I 08/17/2011 14:56:18:549 00001bfc              RhoRuby| require_compiled: rhoappmanifest
-I 08/17/2011 14:56:18:549 00001bfc              RhoRuby| require_compiled: find
-I 08/17/2011 14:56:18:569 00001bfc                  APP| model file: MyTask/my_task
-I 08/17/2011 14:56:18:569 00001bfc                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
-I 08/17/2011 14:56:18:569 00001bfc            RhodesApp| Starting sync engine...
-I 08/17/2011 14:56:18:569 00001bfc                 Sync| sync_poll_interval: 0
-I 08/17/2011 14:56:18:569 00001bfc                 Sync| syncserver: 
-I 08/17/2011 14:56:18:569 00001bfc                 Sync| bulksync_state: 0
-I 08/17/2011 14:56:18:569 00001bfc            RhodesApp| RhoRubyInitApp...
-I 08/17/2011 14:56:18:569 00001bfc                  APP| init_app
-I 08/17/2011 14:56:18:569 00001bfc              RhoRuby| require_compiled: application
-I 08/17/2011 14:56:18:569 00001bfc                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:18:579 00001bfc                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
-I 08/17/2011 14:56:18:579 00001bfc                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:61651/app/Settings/sync_notify; Params: 
-I 08/17/2011 14:56:18:579 00001bfc           HttpServer| Start HTTP server
-I 08/17/2011 14:56:18:579 00001bfc         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 08/17/2011 14:56:18:579 0000075c         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 08/17/2011 14:56:18:579 0000075c  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 08/17/2011 14:56:18:579 0000075c         AppCallbacks| process command: UI-CREATED
-I 08/17/2011 14:56:18:579 0000075c                  Net| Method: GET;Url: http://127.0.0.1:61651/system/uicreated
-I 08/17/2011 14:56:18:649 00001bfc           HttpServer| Process URI: '/system/uicreated'
-I 08/17/2011 14:56:18:649 00001bfc                  APP| on_ui_created.navigate to start url: '/app'
-I 08/17/2011 14:56:18:649 00000ff8      MainWindowProxy| navigate: 'http://127.0.0.1:61651/app'
-I 08/17/2011 14:56:18:649 0000075c         AppCallbacks| process command: APP-ACTIVATED
-I 08/17/2011 14:56:18:649 0000075c                  Net| Method: GET;Url: http://127.0.0.1:61651/system/activateapp
-I 08/17/2011 14:56:18:649 00000ff8           MainWindow| WebView: loading...
-I 08/17/2011 14:56:18:649 00001bfc           HttpServer| Process URI: '/system/activateapp'
-I 08/17/2011 14:56:18:649 0000075c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:18:649 00001bfc           HttpServer| Process URI: '/app'
-I 08/17/2011 14:56:18:649 00001bfc           HttpServer| Process URI: '/app/index.erb'
-I 08/17/2011 14:56:18:649 00001bfc                  APP| RHO serve_index: /app/index.erb
-I 08/17/2011 14:56:18:649 00001bfc RHO Rho::RhoController| inst_render_index
-I 08/17/2011 14:56:18:659 00001bfc              RhoRuby| require_compiled: erb
-I 08/17/2011 14:56:18:659 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
-I 08/17/2011 14:56:18:669 00001bfc RHO Rho::RhoController| index layout
-I 08/17/2011 14:56:18:669 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
-I 08/17/2011 14:56:18:669 00000ff8           MainWindow| WebView: URL changed
-I 08/17/2011 14:56:18:689 00001bfc           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
-I 08/17/2011 14:56:18:699 00001bfc           HttpServer| Process URI: '/public/css/sencha.css'
-I 08/17/2011 14:56:18:699 00001bfc           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
-I 08/17/2011 14:56:18:719 00001bfc           HttpServer| Process URI: '/public/app/rhodes.js'
-I 08/17/2011 14:56:18:719 00001bfc           HttpServer| Process URI: '/public/app/account.js'
-I 08/17/2011 14:56:18:719 00001bfc           HttpServer| Process URI: '/public/app/contact.js'
-I 08/17/2011 14:56:18:719 00001bfc           HttpServer| Process URI: '/public/app/login.js'
-I 08/17/2011 14:56:18:729 00001bfc           HttpServer| Process URI: '/public/app/index.js'
-I 08/17/2011 14:56:18:859 00001bfc           HttpServer| Process URI: '/app/Saccount/alljson'
-E 08/17/2011 14:56:18:859 00001bfc           HttpServer| The file /app/Saccount/alljson was not found
-I 08/17/2011 14:56:18:859 00001bfc           HttpServer| Process URI: '/app/Scontact/alljson'
-E 08/17/2011 14:56:18:859 00001bfc           HttpServer| The file /app/Scontact/alljson was not found
-I 08/17/2011 14:56:18:879 00000ff8           MainWindow| WebView: loaded 
-I 08/17/2011 14:56:19:990 00001bfc           HttpServer| Process URI: '/app/Settings/logged_in'
-I 08/17/2011 14:56:19:990 00001bfc                  APP| RHO serve: /app/Settings/logged_in
-I 08/17/2011 14:56:19:990 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:19:990 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:19:990 00001bfc              RhoRuby| require_compiled: json
-I 08/17/2011 14:56:20:010 00001bfc              RhoRuby| require_compiled: json/common
-I 08/17/2011 14:56:20:010 00001bfc              RhoRuby| require_compiled: json/version
-I 08/17/2011 14:56:20:010 00001bfc              RhoRuby| require_compiled: json/pure
-I 08/17/2011 14:56:20:010 00001bfc              RhoRuby| require_compiled: json/pure/generator
-I 08/17/2011 14:56:28:776 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:28:776 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:28:776 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:28:776 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:28:776 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:28:776 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:30:358 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:30:358 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:30:368 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:30:378 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:30:378 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:30:378 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:30:562 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:30:562 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:30:562 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:30:572 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:30:572 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:30:572 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:30:737 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:30:737 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:30:737 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:30:747 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:30:747 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:30:747 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:30:881 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:30:881 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:30:881 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:30:891 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:30:891 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:30:891 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:31:037 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:31:037 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:31:037 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:31:047 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:31:047 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:31:047 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:31:169 00001bfc           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:31:169 00001bfc                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:31:169 00001bfc              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:31:179 00001bfc              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:31:179 00001bfc                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:31:179 00001bfc                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:32:683 00000ff8            RhodesApp| callAppActiveCallback
-I 08/17/2011 14:56:32:683 00000ff8         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/17/2011 14:56:32:683 00000ff8                  Net| Method: GET;Url: http://127.0.0.1:61651/system/deactivateapp
-I 08/17/2011 14:56:32:683 0000075c         AppCallbacks| process command: APP-DEACTIVATED
-I 08/17/2011 14:56:32:693 0000075c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:32:693 00001bfc           HttpServer| Process URI: '/system/deactivateapp'
-I 08/17/2011 14:56:32:693 00000ff8                  Net| Method: GET;Url: http://127.0.0.1:61651/system/uidestroyed
-I 08/17/2011 14:56:32:693 00001bfc           HttpServer| Process URI: '/system/uidestroyed'
-I 08/17/2011 14:56:32:693 0000075c         AppCallbacks| Thread shutdown
-I 08/17/2011 14:56:32:693 00000ff8           HttpServer| Stopping server...
-I 08/17/2011 14:56:32:693 00001bfc            RhodesApp| RhodesApp thread shutdown
-I 08/17/2011 14:56:44:543 0000021c      Rhodes.cpp: 178| Rhodes started
-I 08/17/2011 14:56:44:553 00001c1c         AppCallbacks| Starting main routine...
-I 08/17/2011 14:56:44:553 00001c1c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:44:553 0000021c            RhodesApp| Trying to get free listening port.
-I 08/17/2011 14:56:44:553 0000021c            RhodesApp| Trying to bind of 0 port...
-I 08/17/2011 14:56:44:553 0000021c            RhodesApp| Got port to bind on: 61678
-I 08/17/2011 14:56:44:553 0000021c            RhodesApp| Free listening port: 61678
-I 08/17/2011 14:56:44:673 0000021c            RhodesApp| callAppActiveCallback
-I 08/17/2011 14:56:44:673 0000021c         AppCallbacks| addCommand: APP-ACTIVATED
-I 08/17/2011 14:56:44:673 00001c1c         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/17/2011 14:56:44:673 00001c1c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:44:673 0000021c         AppCallbacks| addCommand: UI-CREATED
-I 08/17/2011 14:56:44:673 00001c1c         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/17/2011 14:56:44:673 00001c1c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:44:673 0000021c      MainWindowProxy| navigate: 'about:blank'
-I 08/17/2011 14:56:44:673 0000021c           MainWindow| WebView: loading...
-I 08/17/2011 14:56:44:673 00001b00            RhodesApp| Starting RhodesApp main routine...
-I 08/17/2011 14:56:44:673 0000021c           MainWindow| WebView: URL changed
-I 08/17/2011 14:56:44:673 0000021c           MainWindow| WebView: loaded 
-I 08/17/2011 14:56:44:683 00001b00              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
-I 08/17/2011 14:56:44:683 00001b00              RhoRuby| require_compiled: rhoframework
-I 08/17/2011 14:56:44:683 00001b00              RhoRuby| require_compiled: rational
-I 08/17/2011 14:56:44:683 00001b00              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 08/17/2011 14:56:44:693 00001b00              RhoRuby| require_compiled: rhodes
-I 08/17/2011 14:56:44:693 00001b00              RhoRuby| require_compiled: rhom/rhom_object
-I 08/17/2011 14:56:44:703 00001b00              RhoRuby| require_compiled: rhofsconnector
-I 08/17/2011 14:56:44:703 00001b00              RhoRuby| require_compiled: rho/rhofsconnector
-I 08/17/2011 14:56:44:703 00001b00              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 08/17/2011 14:56:44:733 00001b00              RhoRuby| require_compiled: rhom/rhom
-I 08/17/2011 14:56:44:733 00001b00              RhoRuby| require_compiled: rhom/rhom_model
-I 08/17/2011 14:56:44:743 00001b00              RhoRuby| require_compiled: rhom
-I 08/17/2011 14:56:44:743 00001b00              RhoRuby| require_compiled: rho/rhoapplication
-I 08/17/2011 14:56:44:743 00001b00              RhoRuby| require_compiled: rholang/localization_simplified
-I 08/17/2011 14:56:44:753 00001b00                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:44:753 00001b00                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/17/2011 14:56:44:753 00001b00                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/17/2011 14:56:44:753 00001b00                  APP| Load english resources.
-I 08/17/2011 14:56:44:753 00001b00              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
-I 08/17/2011 14:56:44:753 00001b00              RhoRuby| require_compiled: rho/rhomsg
-I 08/17/2011 14:56:44:753 00001b00                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:44:753 00001b00                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
-I 08/17/2011 14:56:44:753 00001b00              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
-I 08/17/2011 14:56:44:763 00001b00              RhoRuby| require_compiled: rho/rhotabbar
-I 08/17/2011 14:56:44:763 00001b00              RhoRuby| require_compiled: rho/rhotoolbar
-I 08/17/2011 14:56:44:763 00001b00              RhoRuby| require_compiled: indifferent_access
-I 08/17/2011 14:56:44:763 00001b00              RhoRuby| require_compiled: rho/rhosupport
-I 08/17/2011 14:56:44:773 00001b00              RhoRuby| require_compiled: rho/rhocontroller
-I 08/17/2011 14:56:44:783 00001b00              RhoRuby| require_compiled: rho/render
-I 08/17/2011 14:56:44:783 00001b00              RhoRuby| require_compiled: rho/rho
-I 08/17/2011 14:56:44:793 00001b00              RhoRuby| require_compiled: rho/rhoerror
-I 08/17/2011 14:56:44:803 00001b00                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:44:803 00001b00                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
-I 08/17/2011 14:56:44:803 00001b00              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
-I 08/17/2011 14:56:44:803 00001b00              RhoRuby| require_compiled: rhom/rhom_source
-E 08/17/2011 14:56:44:803 00001b00              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 08/17/2011 14:56:44:813 00001b00              RhoRuby| require_compiled: rho/rhoviewhelpers
-I 08/17/2011 14:56:44:813 00001b00              RhoRuby| require_compiled: rho
-I 08/17/2011 14:56:44:813 00001b00              RhoRuby| require_compiled: debugger
-I 08/17/2011 14:56:44:823 00001b00              RhoRuby| require_compiled: uri
-I 08/17/2011 14:56:44:823 00001b00              RhoRuby| require_compiled: uri/common
-I 08/17/2011 14:56:44:833 00001b00              RhoRuby| require_compiled: uri/generic
-I 08/17/2011 14:56:44:853 00001b00              RhoRuby| require_compiled: uri/ftp
-I 08/17/2011 14:56:44:853 00001b00              RhoRuby| require_compiled: uri/http
-I 08/17/2011 14:56:44:853 00001b00              RhoRuby| require_compiled: uri/https
-I 08/17/2011 14:56:44:863 00001b00              RhoRuby| require_compiled: uri/ldap
-I 08/17/2011 14:56:44:863 00001b00              RhoRuby| require_compiled: uri/ldaps
-I 08/17/2011 14:56:44:863 00001b00              RhoRuby| require_compiled: uri/mailto
-I 08/17/2011 14:56:44:873 00001b00              RhoRuby| require_compiled: timeout
-I 08/17/2011 14:56:44:873 00001b00                  APP| [Debugger] Opening connection
-I 08/17/2011 14:56:45:883 00001b00                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 08/17/2011 14:56:45:883 00001b00                  APP| RHO loaded
-I 08/17/2011 14:56:45:883 00001b00                  APP| Calling RHO.initialize
-I 08/17/2011 14:56:45:883 00001b00              RhoRuby| require_compiled: rhoappmanifest
-I 08/17/2011 14:56:45:883 00001b00              RhoRuby| require_compiled: find
-I 08/17/2011 14:56:45:903 00001b00                  APP| model file: MyTask/my_task
-I 08/17/2011 14:56:45:903 00001b00                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
-I 08/17/2011 14:56:45:903 00001b00            RhodesApp| Starting sync engine...
-I 08/17/2011 14:56:45:903 00001b00                 Sync| sync_poll_interval: 0
-I 08/17/2011 14:56:45:903 00001b00                 Sync| syncserver: 
-I 08/17/2011 14:56:45:903 00001b00                 Sync| bulksync_state: 0
-I 08/17/2011 14:56:45:903 00001b00            RhodesApp| RhoRubyInitApp...
-I 08/17/2011 14:56:45:903 00001b00                  APP| init_app
-I 08/17/2011 14:56:45:903 00001b00              RhoRuby| require_compiled: application
-I 08/17/2011 14:56:45:913 00001b00                  APP| Current locale: de; Country code: at
-I 08/17/2011 14:56:45:913 00001b00                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
-I 08/17/2011 14:56:45:913 00001b00                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:61678/app/Settings/sync_notify; Params: 
-I 08/17/2011 14:56:45:913 00001b00           HttpServer| Start HTTP server
-I 08/17/2011 14:56:45:913 00001b00         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 08/17/2011 14:56:45:913 00001c1c         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 08/17/2011 14:56:45:913 00001c1c  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 08/17/2011 14:56:45:913 00001c1c         AppCallbacks| process command: UI-CREATED
-I 08/17/2011 14:56:45:913 00001c1c                  Net| Method: GET;Url: http://127.0.0.1:61678/system/uicreated
-I 08/17/2011 14:56:45:973 00001b00           HttpServer| Process URI: '/system/uicreated'
-I 08/17/2011 14:56:45:973 00001b00                  APP| on_ui_created.navigate to start url: '/app'
-I 08/17/2011 14:56:45:973 0000021c      MainWindowProxy| navigate: 'http://127.0.0.1:61678/app'
-I 08/17/2011 14:56:45:973 00001c1c         AppCallbacks| process command: APP-ACTIVATED
-I 08/17/2011 14:56:45:973 00001c1c                  Net| Method: GET;Url: http://127.0.0.1:61678/system/activateapp
-I 08/17/2011 14:56:45:973 0000021c           MainWindow| WebView: loading...
-I 08/17/2011 14:56:45:973 00001b00           HttpServer| Process URI: '/system/activateapp'
-I 08/17/2011 14:56:45:973 00001c1c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/17/2011 14:56:45:973 00001b00           HttpServer| Process URI: '/app'
-I 08/17/2011 14:56:45:973 00001b00           HttpServer| Process URI: '/app/index.erb'
-I 08/17/2011 14:56:45:983 00001b00                  APP| RHO serve_index: /app/index.erb
-I 08/17/2011 14:56:45:983 00001b00 RHO Rho::RhoController| inst_render_index
-I 08/17/2011 14:56:45:983 00001b00              RhoRuby| require_compiled: erb
-I 08/17/2011 14:56:45:993 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
-I 08/17/2011 14:56:45:993 00001b00 RHO Rho::RhoController| index layout
-I 08/17/2011 14:56:45:993 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
-I 08/17/2011 14:56:45:993 0000021c           MainWindow| WebView: URL changed
-I 08/17/2011 14:56:46:013 00001b00           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
-I 08/17/2011 14:56:46:023 00001b00           HttpServer| Process URI: '/public/css/sencha.css'
-I 08/17/2011 14:56:46:023 00001b00           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
-I 08/17/2011 14:56:46:043 00001b00           HttpServer| Process URI: '/public/app/rhodes.js'
-I 08/17/2011 14:56:46:043 00001b00           HttpServer| Process URI: '/public/app/account.js'
-I 08/17/2011 14:56:46:043 00001b00           HttpServer| Process URI: '/public/app/contact.js'
-I 08/17/2011 14:56:46:053 00001b00           HttpServer| Process URI: '/public/app/login.js'
-I 08/17/2011 14:56:46:053 00001b00           HttpServer| Process URI: '/public/app/index.js'
-I 08/17/2011 14:56:46:193 00001b00           HttpServer| Process URI: '/app/Saccount/alljson'
-E 08/17/2011 14:56:46:193 00001b00           HttpServer| The file /app/Saccount/alljson was not found
-I 08/17/2011 14:56:46:193 00001b00           HttpServer| Process URI: '/app/Scontact/alljson'
-E 08/17/2011 14:56:46:193 00001b00           HttpServer| The file /app/Scontact/alljson was not found
-I 08/17/2011 14:56:46:203 0000021c           MainWindow| WebView: loaded 
-I 08/17/2011 14:56:47:305 00001b00           HttpServer| Process URI: '/app/Settings/logged_in'
-I 08/17/2011 14:56:47:305 00001b00                  APP| RHO serve: /app/Settings/logged_in
-I 08/17/2011 14:56:47:305 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:47:325 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:47:325 00001b00              RhoRuby| require_compiled: json
-I 08/17/2011 14:56:47:325 00001b00              RhoRuby| require_compiled: json/common
-I 08/17/2011 14:56:47:325 00001b00              RhoRuby| require_compiled: json/version
-I 08/17/2011 14:56:47:325 00001b00              RhoRuby| require_compiled: json/pure
-I 08/17/2011 14:56:47:335 00001b00              RhoRuby| require_compiled: json/pure/generator
-I 08/17/2011 14:56:52:874 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:52:874 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:52:874 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:52:884 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:52:884 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:52:884 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:53:486 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
-I 08/17/2011 14:56:53:496 00001b00                  APP| RHO serve: /app/Settings/do_login
-I 08/17/2011 14:56:53:506 00001b00              RhoRuby| require_compiled: Settings/controller
-I 08/17/2011 14:56:53:506 00001b00              RhoRuby| require_compiled: helpers/browser_helper
-I 08/17/2011 14:56:53:506 00001b00                  APP| Params: {"login"=>"admin", "password"=>"admin"}
-I 08/17/2011 14:56:53:506 00001b00                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/index.erb
-I 08/17/2011 14:56:53:682 00001b00           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:16:57:388 00001a54      Rhodes.cpp: 178| Rhodes started
+I 08/17/2011 15:16:57:391 000004c4         AppCallbacks| Starting main routine...
+I 08/17/2011 15:16:57:391 000004c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/17/2011 15:16:57:396 00001a54            RhodesApp| Trying to get free listening port.
+I 08/17/2011 15:16:57:401 00001a54            RhodesApp| Trying to bind of 0 port...
+I 08/17/2011 15:16:57:401 00001a54            RhodesApp| Got port to bind on: 61792
+I 08/17/2011 15:16:57:403 00001a54            RhodesApp| Free listening port: 61792
+I 08/17/2011 15:16:57:528 00001a54            RhodesApp| callAppActiveCallback
+I 08/17/2011 15:16:57:528 00001a54         AppCallbacks| addCommand: APP-ACTIVATED
+I 08/17/2011 15:16:57:528 000004c4         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 08/17/2011 15:16:57:528 000004c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/17/2011 15:16:57:531 00001a54         AppCallbacks| addCommand: UI-CREATED
+I 08/17/2011 15:16:57:531 000004c4         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 08/17/2011 15:16:57:531 000004c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/17/2011 15:16:57:531 00001a54      MainWindowProxy| navigate: 'about:blank'
+I 08/17/2011 15:16:57:531 00001a54           MainWindow| WebView: loading...
+I 08/17/2011 15:16:57:531 0000187c            RhodesApp| Starting RhodesApp main routine...
+I 08/17/2011 15:16:57:533 00001a54           MainWindow| WebView: URL changed
+I 08/17/2011 15:16:57:533 00001a54           MainWindow| WebView: loaded 
+I 08/17/2011 15:16:57:538 0000187c              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
+I 08/17/2011 15:16:57:541 0000187c              RhoRuby| require_compiled: rhoframework
+I 08/17/2011 15:16:57:543 0000187c              RhoRuby| require_compiled: rational
+I 08/17/2011 15:16:57:546 0000187c              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 08/17/2011 15:16:57:556 0000187c              RhoRuby| require_compiled: rhodes
+I 08/17/2011 15:16:57:558 0000187c              RhoRuby| require_compiled: rhom/rhom_object
+I 08/17/2011 15:16:57:561 0000187c              RhoRuby| require_compiled: rhofsconnector
+I 08/17/2011 15:16:57:563 0000187c              RhoRuby| require_compiled: rho/rhofsconnector
+I 08/17/2011 15:16:57:566 0000187c              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 08/17/2011 15:16:57:598 0000187c              RhoRuby| require_compiled: rhom/rhom
+I 08/17/2011 15:16:57:603 0000187c              RhoRuby| require_compiled: rhom/rhom_model
+I 08/17/2011 15:16:57:606 0000187c              RhoRuby| require_compiled: rhom
+I 08/17/2011 15:16:57:606 0000187c              RhoRuby| require_compiled: rho/rhoapplication
+I 08/17/2011 15:16:57:611 0000187c              RhoRuby| require_compiled: rholang/localization_simplified
+I 08/17/2011 15:16:57:616 0000187c                  APP| Current locale: de; Country code: at
+I 08/17/2011 15:16:57:616 0000187c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
+I 08/17/2011 15:16:57:616 0000187c                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
+I 08/17/2011 15:16:57:616 0000187c                  APP| Load english resources.
+I 08/17/2011 15:16:57:616 0000187c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
+I 08/17/2011 15:16:57:621 0000187c              RhoRuby| require_compiled: rho/rhomsg
+I 08/17/2011 15:16:57:621 0000187c                  APP| Current locale: de; Country code: at
+I 08/17/2011 15:16:57:621 0000187c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
+I 08/17/2011 15:16:57:623 0000187c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
+I 08/17/2011 15:16:57:626 0000187c              RhoRuby| require_compiled: rho/rhotabbar
+I 08/17/2011 15:16:57:628 0000187c              RhoRuby| require_compiled: rho/rhotoolbar
+I 08/17/2011 15:16:57:628 0000187c              RhoRuby| require_compiled: indifferent_access
+I 08/17/2011 15:16:57:633 0000187c              RhoRuby| require_compiled: rho/rhosupport
+I 08/17/2011 15:16:57:638 0000187c              RhoRuby| require_compiled: rho/rhocontroller
+I 08/17/2011 15:16:57:643 0000187c              RhoRuby| require_compiled: rho/render
+I 08/17/2011 15:16:57:651 0000187c              RhoRuby| require_compiled: rho/rho
+I 08/17/2011 15:16:57:671 0000187c              RhoRuby| require_compiled: rho/rhoerror
+I 08/17/2011 15:16:57:671 0000187c                  APP| Current locale: de; Country code: at
+I 08/17/2011 15:16:57:671 0000187c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
+I 08/17/2011 15:16:57:673 0000187c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
+I 08/17/2011 15:16:57:676 0000187c              RhoRuby| require_compiled: rhom/rhom_source
+E 08/17/2011 15:16:57:681 0000187c              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 08/17/2011 15:16:57:681 0000187c              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 08/17/2011 15:16:57:686 0000187c              RhoRuby| require_compiled: rho
+I 08/17/2011 15:16:57:688 0000187c              RhoRuby| require_compiled: debugger
+I 08/17/2011 15:16:57:696 0000187c              RhoRuby| require_compiled: uri
+I 08/17/2011 15:16:57:698 0000187c              RhoRuby| require_compiled: uri/common
+I 08/17/2011 15:16:57:711 0000187c              RhoRuby| require_compiled: uri/generic
+I 08/17/2011 15:16:57:726 0000187c              RhoRuby| require_compiled: uri/ftp
+I 08/17/2011 15:16:57:731 0000187c              RhoRuby| require_compiled: uri/http
+I 08/17/2011 15:16:57:733 0000187c              RhoRuby| require_compiled: uri/https
+I 08/17/2011 15:16:57:736 0000187c              RhoRuby| require_compiled: uri/ldap
+I 08/17/2011 15:16:57:741 0000187c              RhoRuby| require_compiled: uri/ldaps
+I 08/17/2011 15:16:57:743 0000187c              RhoRuby| require_compiled: uri/mailto
+I 08/17/2011 15:16:57:748 0000187c              RhoRuby| require_compiled: timeout
+I 08/17/2011 15:16:57:751 0000187c                  APP| [Debugger] Opening connection
+I 08/17/2011 15:16:58:761 0000187c                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 08/17/2011 15:16:58:761 0000187c                  APP| RHO loaded
+I 08/17/2011 15:16:58:761 0000187c                  APP| Calling RHO.initialize
+I 08/17/2011 15:16:58:761 0000187c              RhoRuby| require_compiled: rhoappmanifest
+I 08/17/2011 15:16:58:763 0000187c              RhoRuby| require_compiled: find
+I 08/17/2011 15:16:58:786 0000187c                  APP| model file: MyTask/my_task
+I 08/17/2011 15:16:58:786 0000187c                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
+I 08/17/2011 15:16:58:788 0000187c            RhodesApp| Starting sync engine...
+I 08/17/2011 15:16:58:788 0000187c                 Sync| sync_poll_interval: 0
+I 08/17/2011 15:16:58:791 0000187c                 Sync| syncserver: 
+I 08/17/2011 15:16:58:791 0000187c                 Sync| bulksync_state: 0
+I 08/17/2011 15:16:58:791 0000187c            RhodesApp| RhoRubyInitApp...
+I 08/17/2011 15:16:58:791 0000187c                  APP| init_app
+I 08/17/2011 15:16:58:791 0000187c              RhoRuby| require_compiled: application
+I 08/17/2011 15:16:58:791 0000187c                  APP| Current locale: de; Country code: at
+I 08/17/2011 15:16:58:791 0000187c                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
+I 08/17/2011 15:16:58:791 0000187c                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:61792/app/Settings/sync_notify; Params: 
+I 08/17/2011 15:16:58:793 0000187c           HttpServer| Start HTTP server
+I 08/17/2011 15:16:58:793 0000187c         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 08/17/2011 15:16:58:793 000004c4         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 08/17/2011 15:16:58:793 000004c4  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 08/17/2011 15:16:58:793 000004c4         AppCallbacks| process command: UI-CREATED
+I 08/17/2011 15:16:58:793 000004c4                  Net| Method: GET;Url: http://127.0.0.1:61792/system/uicreated
+I 08/17/2011 15:16:58:868 0000187c           HttpServer| Process URI: '/system/uicreated'
+I 08/17/2011 15:16:58:868 0000187c                  APP| on_ui_created.navigate to start url: '/app'
+I 08/17/2011 15:16:58:868 00001a54      MainWindowProxy| navigate: 'http://127.0.0.1:61792/app'
+I 08/17/2011 15:16:58:868 000004c4         AppCallbacks| process command: APP-ACTIVATED
+I 08/17/2011 15:16:58:868 000004c4                  Net| Method: GET;Url: http://127.0.0.1:61792/system/activateapp
+I 08/17/2011 15:16:58:868 00001a54           MainWindow| WebView: loading...
+I 08/17/2011 15:16:58:871 0000187c           HttpServer| Process URI: '/system/activateapp'
+I 08/17/2011 15:16:58:871 000004c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/17/2011 15:16:58:871 0000187c           HttpServer| Process URI: '/app'
+I 08/17/2011 15:16:58:873 0000187c           HttpServer| Process URI: '/app/index.erb'
+I 08/17/2011 15:16:58:873 0000187c                  APP| RHO serve_index: /app/index.erb
+I 08/17/2011 15:16:58:873 0000187c RHO Rho::RhoController| inst_render_index
+I 08/17/2011 15:16:58:876 0000187c              RhoRuby| require_compiled: erb
+I 08/17/2011 15:16:58:883 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/17/2011 15:16:58:886 0000187c RHO Rho::RhoController| index layout
+I 08/17/2011 15:16:58:886 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/17/2011 15:16:58:888 00001a54           MainWindow| WebView: URL changed
+I 08/17/2011 15:16:58:911 0000187c           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/17/2011 15:16:58:918 0000187c           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/17/2011 15:16:58:923 0000187c           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/17/2011 15:16:58:938 0000187c           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/17/2011 15:16:58:941 0000187c           HttpServer| Process URI: '/public/app/account.js'
+I 08/17/2011 15:16:58:943 0000187c           HttpServer| Process URI: '/public/app/contact.js'
+I 08/17/2011 15:16:58:946 0000187c           HttpServer| Process URI: '/public/app/login.js'
+I 08/17/2011 15:16:58:948 0000187c           HttpServer| Process URI: '/public/app/index.js'
+I 08/17/2011 15:16:59:076 0000187c           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/17/2011 15:16:59:076 0000187c           HttpServer| The file /app/Saccount/alljson was not found
+I 08/17/2011 15:16:59:078 0000187c           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/17/2011 15:16:59:078 0000187c           HttpServer| The file /app/Scontact/alljson was not found
+I 08/17/2011 15:16:59:096 00001a54           MainWindow| WebView: loaded 
+I 08/17/2011 15:17:00:217 0000187c           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/17/2011 15:17:00:217 0000187c                  APP| RHO serve: /app/Settings/logged_in
+I 08/17/2011 15:17:00:217 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:00:220 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:00:220 0000187c              RhoRuby| require_compiled: json
+I 08/17/2011 15:17:00:222 0000187c              RhoRuby| require_compiled: json/common
+I 08/17/2011 15:17:00:227 0000187c              RhoRuby| require_compiled: json/version
+I 08/17/2011 15:17:00:227 0000187c              RhoRuby| require_compiled: json/pure
+I 08/17/2011 15:17:00:230 0000187c              RhoRuby| require_compiled: json/pure/generator
+I 08/17/2011 15:17:02:823 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:02:823 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:02:823 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:02:825 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:02:828 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:02:828 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:02:828 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:02:828 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:03:492 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:03:494 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:03:494 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:03:497 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:03:499 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:03:499 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:03:499 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:03:499 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:03:502 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:04:116 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:04:118 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:04:118 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:04:121 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:04:123 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:04:123 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:04:123 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:04:123 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:04:123 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:07:420 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:07:420 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:07:422 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:07:427 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:07:427 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:07:427 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:07:427 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:07:427 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:07:430 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:07:910 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:07:910 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:07:910 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:07:915 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:07:915 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:07:915 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:07:915 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:07:915 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:07:915 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:08:091 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:08:094 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:08:094 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:08:096 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:08:099 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:08:099 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:08:099 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:08:099 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:08:099 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:08:299 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:08:302 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:08:302 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:08:304 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:08:307 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:08:307 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:08:307 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:08:307 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:08:309 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:09:091 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:09:094 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:09:094 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:09:096 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:09:099 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:09:099 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:09:099 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:09:099 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:09:101 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:09:844 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:09:844 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:09:846 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:09:849 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:09:851 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:09:851 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:09:851 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:09:851 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:09:854 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:10:563 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:10:566 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:10:566 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:10:568 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:10:571 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:10:571 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:10:571 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:10:571 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:10:571 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:11:086 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:11:086 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:11:088 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:11:088 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:11:091 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:11:091 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:11:091 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:11:091 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:11:091 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:12:020 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:12:022 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:12:022 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:12:027 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:12:030 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:12:030 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:12:030 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:12:030 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:12:030 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:12:741 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:12:741 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:12:741 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:12:744 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:12:746 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:12:746 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:12:746 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:12:746 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:12:746 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:13:291 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:13:294 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:13:294 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:13:296 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:13:299 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:13:299 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:13:299 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:13:299 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:13:301 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:13:670 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:13:670 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:13:670 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:13:672 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:13:675 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:13:675 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:13:675 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:13:675 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:13:675 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:14:139 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:14:142 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:14:142 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:14:144 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:14:147 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:14:147 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:14:147 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:14:147 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:14:147 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:14:957 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:14:957 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:14:957 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:14:962 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:14:962 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:14:962 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:14:962 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:14:962 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:14:962 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:16:670 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:16:670 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:16:670 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:16:675 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:16:675 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:16:675 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:16:675 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:16:677 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:16:677 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:16:900 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:16:902 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:16:902 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:16:905 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:16:907 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:16:907 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:16:907 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:16:907 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:16:910 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:068 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:070 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:070 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:073 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:075 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:075 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:075 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:075 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:078 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:238 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:238 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:238 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:243 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:245 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:245 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:245 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:245 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:248 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:404 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:407 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:407 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:409 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:412 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:412 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:412 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:412 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:412 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:574 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:574 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:574 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:576 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:579 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:579 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:579 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:579 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:581 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:748 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:750 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:750 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:753 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:755 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:755 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:755 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:755 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:755 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:17:942 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:17:942 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:17:942 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:17:944 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:17:947 0000187c                  APP| Params: {"login"=>"asdf", "password"=>"sadf"}
+I 08/17/2011 15:17:17:947 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:17:947 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:17:947 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:17:949 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:19:236 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:19:238 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:19:238 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:19:241 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:19:243 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:19:243 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:19:243 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:19:243 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:19:243 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:20:236 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:20:238 0000187c                  APP| RHO serve: /app/Settings/do_login
+I 08/17/2011 15:17:20:238 0000187c              RhoRuby| require_compiled: Settings/controller
+I 08/17/2011 15:17:20:241 0000187c              RhoRuby| require_compiled: helpers/browser_helper
+I 08/17/2011 15:17:20:243 0000187c                  APP| Params: {"login"=>"", "password"=>""}
+I 08/17/2011 15:17:20:243 0000187c  SyncThread.cpp: 225| STOP sync
+I 08/17/2011 15:17:20:243 0000187c                 Sync| addCommand: Login
+I 08/17/2011 15:17:20:243 0000187c                 Sync| Command already exists in queue. Skip it.
+I 08/17/2011 15:17:20:243 0000187c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/about.erb
+I 08/17/2011 15:17:20:478 0000187c           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/17/2011 15:17:20:478 0000187c                  APP| RHO serve: /app/Settings/do_login
+Server| Process URI: '/app/Settings/do_login'
 e_compiled: rho/rhoviewhelpers

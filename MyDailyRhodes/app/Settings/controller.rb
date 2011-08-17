@@ -48,13 +48,16 @@ class SettingsController < Rho::RhoController
       begin
         SyncEngine.login(@params['login'], @params['password'], (url_for :action => :login_callback) )
         render :action => :wait
+
       rescue Rho::RhoError => e
         @msg = e.message
         render :action => :login
+        
       end
     else
       @msg = Rho::RhoError.err_message(Rho::RhoError::ERR_UNATHORIZED) unless @msg && @msg.length > 0
       render :action => :login
+      
     end
   end
   
