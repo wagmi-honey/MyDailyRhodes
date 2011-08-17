@@ -2,6 +2,7 @@ require 'rho'
 require 'rho/rhocontroller'
 require 'rho/rhoerror'
 require 'helpers/browser_helper'
+require 'json'
 
 class SettingsController < Rho::RhoController
   include BrowserHelper
@@ -20,7 +21,6 @@ class SettingsController < Rho::RhoController
     errCode = @params['error_code'].to_i
     if errCode == 0
       # run sync if we were successful
-      WebView.navigate Rho::RhoConfig.options_path
       SyncEngine.dosync
     else
       if errCode == Rho::RhoError::ERR_CUSTOMSYNCSERVER
@@ -31,8 +31,16 @@ class SettingsController < Rho::RhoController
         @msg = Rho::RhoError.new(errCode).message
       end
       
-      WebView.navigate ( url_for :action => :login, :query => {:msg => @msg} )
-    end  
+    end 
+    WebView.navigate Rho::RhoConfig.start_path
+     
+  end
+  
+  def sync_notify
+    if @params['status'] == "ok"
+      WebView.execute_js("contact.DataStore.load();contact.ContactList.refresh(); contact.ContactList.setLoading(false,true);") if @params["source_name"] == "Scontact"
+      WebView.execute_js("account.DataStore.load();account.AccountList.refresh(); account.AccountList.setLoading(false,true);") if @params["source_name"] == "Saccount"
+    end
   end
 
   def do_login
@@ -72,4 +80,12 @@ class SettingsController < Rho::RhoController
     @msg =  "Sync has been triggered."
     redirect :action => :index, :query => {:msg => @msg}
   end
+  
+  #Sencha helpers
+  def logged_in
+    json = JSON.generate(SyncEngine.logged_in)
+    render :string => json
+  end
+  
+  
 end

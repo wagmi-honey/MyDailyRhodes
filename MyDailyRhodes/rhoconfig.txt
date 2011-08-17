@@ -11,10 +11,20 @@ rhobundle_zip_url = ''
 rhobundle_zip_pwd = nil
 
 # Rhodes log properties
-# log level
-# 0-trace, 1-info(app level), 3-warnings, 4-errors
-# for production set to 3
-MinSeverity  = 1 
+MinSeverity  = 1
+LogToOutput = 1
+LogCategories = *
+ExcludeLogCategories =
+KeepTrackOfLastVisitedPage = 0 
+LastVisitedPage = ''
+MaxLogFileSize = 0
+
+# Sync server url. Typically this will look like 'http://<hostname>:<port>/application'
+# For example: 'http://localhost:9292/application'
+syncserver = 'http://localhost:9292/application'
+
+# To disable auto sync, uncomment the following line.
+# sync_poll_interval=0
 
 # enable copy log messages to standard output, useful for debugging
 LogToOutput = 1
