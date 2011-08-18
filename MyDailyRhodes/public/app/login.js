@@ -1,6 +1,5 @@
 Ext.ns('login', 'Ext.ux');
 
-
 login.LoginForm = {
 	scroll: 'vertical',
 	url   : '/app/Settings/do_login',
@@ -48,6 +47,52 @@ login.LoginForm = {
 					text: 'Reset',
 					handler: function() {
 						login.form.reset();
+					}
+				}, 
+				{
+					text: 'About',
+					ui: 'forward',
+					handler: function() {
+						// create the root panel
+					    new Ext.Panel({
+					        fullscreen: true,
+					        items: [
+					          // add a panel to the root panel
+					          { 
+					            xtype: "form",
+					            items: [{
+					    			xtype: 'textfield',
+					    		    name : 'name',
+					    		    label: 'CSC Mobile Solution',
+					    		    useClearIcon: true,
+					    		    autoCapitalize : false
+					    		}, {
+					    			xtype: 'textfield',
+					    		    name : 'version',
+					    		    label: 'Version: Service Release 1',
+					    		    useClearIcon: true,
+					    		    autoCapitalize : false
+					    		}, {
+					    			xtype: 'textfield',
+					    		    name : 'buildid',
+					    		    label: 'Build id: 20100917-0705',
+					    		    useClearIcon: true,
+					    		    autoCapitalize : false
+					    		}, {
+					    			xtype: 'textfield',
+					    		    name : 'copyright',
+					    		    label: '(c) Copyright CSC contributors and others 2011. All rights reserved.',
+					    		    useClearIcon: true,
+					    		    autoCapitalize : false
+					    		}, {
+					                xtype: 'textfield',
+					                name : 'website',
+					                label: 'Website',
+					                placeHolder: 'Visit http://www.csc.com',
+					                useClearIcon: true
+					    	    }]
+				            }]
+					    });
 					}
 				},
 				{

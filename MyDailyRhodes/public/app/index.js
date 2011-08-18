@@ -24,11 +24,12 @@ Ext.setup({
     glossOnIcon: false,
 
     onReady: function() {
-		if(rho_logged_in() == 1) {
+	    if(rho_logged_in() == 1) {
+	    // if(1 == 1) {
 			if(contact.DataStore.data.length < 1) {
 				account.AccountList.setLoading(true,true);
 				contact.ContactList.setLoading(true,true);
-				rho_sync();
+				// rho_sync();
 			}
 
         	index.Panel = new Ext.TabPanel(index.MainTabs);
@@ -39,7 +40,7 @@ Ext.setup({
 				handler: function() {
 					account.AccountList.setLoading(true,true);
 					contact.ContactList.setLoading(true,true);
-					rho_sync();
+					// rho_sync();
 				}
 			});
 			tabbar.doLayout();
