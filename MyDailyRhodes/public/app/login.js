@@ -118,7 +118,7 @@ login.LoginForm = {
 							waitMsg : {message:'Submitting', cls : 'demos-loading'}
 						});
 					}
-				},{
+				}, {
 					// or just try this and don't forget to load the .js file at index.erb
 					text: 'Check',
 					ui: 'action',
@@ -127,6 +127,52 @@ login.LoginForm = {
 						about.form = new Ext.form.FormPanel(about.CompanyForm);
 						about.form.show();
 					}
+				}, {
+					// error requesting geolocation -> NOTE: Allow geolocation at device!!!
+					text: 'Geo',		
+					handler: function(){
+						  var center;	  
+						  var map = new Ext.Map({
+						    geo:new Ext.util.GeoLocation({
+						      autoUpdate: false,
+						      timeout: 2000,
+						      listeners: {
+						        locationupdate: function(geo) {
+						          center = new google.maps.LatLng(geo.latitude, geo.longitude);
+
+						          if (map.rendered)
+						            map.update(center)
+						          else
+						            map.on('activate', map.onUpdate, map, {single: true, data: center});
+						        },
+						        locationerror: function(geo){
+						          alert('...got geolocation request error!');          
+						        }
+						      }
+						    })
+						  });
+						  var panel = new Ext.Panel({
+						    fullscreen:true,
+						    layout:'fit',
+						    items:map,
+						    dockedItems:{xtype:'button', text:'click me', handler:function() { alert(center.lat() + ',' + center.lng()) }}
+						  });
+						}
+				}, {
+					// try embedding google map
+					text: 'Map',
+					handler: function() {
+						// create the root panel
+					      new Ext.Panel({
+					        fullscreen: true,
+					        items: [
+					          {
+					            xtype: "map",
+					            title: 'Map',
+					            getLocation: true
+					          }
+					        ]});
+						} 
 				}
 				]
 			}

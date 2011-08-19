@@ -23,3 +23,5 @@ extensions:
 android:
   emulator: GALAXYTabAndroid
   version: 2.2
+capabilities:
+  - gps
