@@ -118,6 +118,15 @@ login.LoginForm = {
 							waitMsg : {message:'Submitting', cls : 'demos-loading'}
 						});
 					}
+				},{
+					// or just try this and don't forget to load the .js file at index.erb
+					text: 'Check',
+					ui: 'action',
+					handler: function() {
+						about.CompanyForm.fullscreen = true;
+						about.form = new Ext.form.FormPanel(about.CompanyForm);
+						about.form.show();
+					}
 				}
 				]
 			}
