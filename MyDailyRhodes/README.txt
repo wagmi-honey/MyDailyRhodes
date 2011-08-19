@@ -1,5 +1,7 @@
 Servus,
 
-das ist ein Test.
+enclosed please find the designated path to github,
 
-Grüße, Florian
+git@github.com:netgadget/MyDailyRhodes.git
+
+Saludos, Florian
