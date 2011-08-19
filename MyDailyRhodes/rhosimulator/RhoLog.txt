@@ -1,526 +1,508 @@
-I 08/19/2011 14:36:19:898 000005b0              RhoRuby| require_compiled: rho
-I 08/19/2011 14:36:19:901 000005b0              RhoRuby| require_compiled: debugger
-I 08/19/2011 14:36:19:906 000005b0              RhoRuby| require_compiled: uri
-I 08/19/2011 14:36:19:908 000005b0              RhoRuby| require_compiled: uri/common
-I 08/19/2011 14:36:19:921 000005b0              RhoRuby| require_compiled: uri/generic
-I 08/19/2011 14:36:19:931 000005b0              RhoRuby| require_compiled: uri/ftp
-I 08/19/2011 14:36:19:936 000005b0              RhoRuby| require_compiled: uri/http
-I 08/19/2011 14:36:19:938 000005b0              RhoRuby| require_compiled: uri/https
-I 08/19/2011 14:36:19:941 000005b0              RhoRuby| require_compiled: uri/ldap
-I 08/19/2011 14:36:19:943 000005b0              RhoRuby| require_compiled: uri/ldaps
-I 08/19/2011 14:36:19:946 000005b0              RhoRuby| require_compiled: uri/mailto
-I 08/19/2011 14:36:19:948 000005b0              RhoRuby| require_compiled: timeout
-I 08/19/2011 14:36:19:951 000005b0                  APP| [Debugger] Opening connection
-I 08/19/2011 14:36:20:953 000005b0                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 08/19/2011 14:36:20:953 000005b0                  APP| RHO loaded
-I 08/19/2011 14:36:20:953 000005b0                  APP| Calling RHO.initialize
-I 08/19/2011 14:36:20:953 000005b0              RhoRuby| require_compiled: rhoappmanifest
-I 08/19/2011 14:36:20:956 000005b0              RhoRuby| require_compiled: find
-I 08/19/2011 14:36:20:968 000005b0                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
-I 08/19/2011 14:36:20:971 000005b0            RhodesApp| Starting sync engine...
-I 08/19/2011 14:36:20:971 000005b0                 Sync| sync_poll_interval: 0
-I 08/19/2011 14:36:20:971 000005b0                 Sync| syncserver: http://localhost:9292/application
-I 08/19/2011 14:36:20:971 000005b0                 Sync| bulksync_state: 0
-I 08/19/2011 14:36:20:971 000005b0            RhodesApp| RhoRubyInitApp...
-I 08/19/2011 14:36:20:971 000005b0                  APP| init_app
-I 08/19/2011 14:36:20:973 000005b0              RhoRuby| require_compiled: application
-I 08/19/2011 14:36:20:973 0000164c                 Sync| Starting main routine...
-I 08/19/2011 14:36:20:973 0000164c                 Sync| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:20:973 000005b0                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:36:20:973 000005b0                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
-I 08/19/2011 14:36:20:973 000005b0                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:54461/app/Settings/sync_notify; Params: 
-I 08/19/2011 14:36:20:973 000005b0           HttpServer| Start HTTP server
-I 08/19/2011 14:36:20:976 000005b0         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 08/19/2011 14:36:20:976 00001e00         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 08/19/2011 14:36:20:976 00001e00  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 08/19/2011 14:36:20:976 00001e00         AppCallbacks| process command: UI-CREATED
-I 08/19/2011 14:36:20:976 00001e00                  Net| Method: GET;Url: http://127.0.0.1:54461/system/uicreated
-I 08/19/2011 14:36:21:056 000005b0           HttpServer| Process URI: '/system/uicreated'
-I 08/19/2011 14:36:21:056 000005b0                  APP| on_ui_created.navigate to start url: '/app'
-I 08/19/2011 14:36:21:056 0000066c      MainWindowProxy| navigate: 'http://127.0.0.1:54461/app'
-I 08/19/2011 14:36:21:056 00001e00         AppCallbacks| process command: APP-ACTIVATED
-I 08/19/2011 14:36:21:056 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:21:056 00001e00                  Net| Method: GET;Url: http://127.0.0.1:54461/system/activateapp
-I 08/19/2011 14:36:21:056 000005b0           HttpServer| Process URI: '/system/activateapp'
-I 08/19/2011 14:36:21:058 00001e00         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:21:058 000005b0           HttpServer| Process URI: '/app'
-I 08/19/2011 14:36:21:061 000005b0           HttpServer| Process URI: '/app/index.erb'
-I 08/19/2011 14:36:21:061 000005b0                  APP| RHO serve_index: /app/index.erb
-I 08/19/2011 14:36:21:061 000005b0 RHO Rho::RhoController| inst_render_index
-I 08/19/2011 14:36:21:061 000005b0              RhoRuby| require_compiled: erb
-I 08/19/2011 14:36:21:071 000005b0                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
-I 08/19/2011 14:36:21:073 000005b0 RHO Rho::RhoController| index layout
-I 08/19/2011 14:36:21:073 000005b0                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
-I 08/19/2011 14:36:21:076 0000066c           MainWindow| WebView: URL changed
-I 08/19/2011 14:36:21:098 000005b0           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
-I 08/19/2011 14:36:21:123 000005b0           HttpServer| Process URI: '/public/css/sencha.css'
-I 08/19/2011 14:36:21:127 000005b0           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
-I 08/19/2011 14:36:21:155 000005b0           HttpServer| Process URI: '/public/app/rhodes.js'
-I 08/19/2011 14:36:21:160 000005b0           HttpServer| Process URI: '/public/app/account.js'
-I 08/19/2011 14:36:21:163 000005b0           HttpServer| Process URI: '/public/app/contact.js'
-I 08/19/2011 14:36:21:165 000005b0           HttpServer| Process URI: '/public/app/about.js'
-I 08/19/2011 14:36:21:168 000005b0           HttpServer| Process URI: '/public/app/login.js'
-I 08/19/2011 14:36:21:253 000005b0           HttpServer| Process URI: '/public/app/index.js'
-I 08/19/2011 14:36:24:666 000005b0           HttpServer| Process URI: '/app/Saccount/alljson'
-E 08/19/2011 14:36:24:666 000005b0           HttpServer| The file /app/Saccount/alljson was not found
-I 08/19/2011 14:36:24:666 000005b0           HttpServer| Process URI: '/app/Scontact/alljson'
-E 08/19/2011 14:36:24:666 000005b0           HttpServer| The file /app/Scontact/alljson was not found
-I 08/19/2011 14:36:24:733 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:25:784 000005b0           HttpServer| Process URI: '/app/Settings/logged_in'
-I 08/19/2011 14:36:25:786 000005b0                  APP| RHO serve: /app/Settings/logged_in
-I 08/19/2011 14:36:25:786 000005b0              RhoRuby| require_compiled: Settings/controller
-I 08/19/2011 14:36:25:789 000005b0              RhoRuby| require_compiled: helpers/browser_helper
-I 08/19/2011 14:36:25:791 000005b0              RhoRuby| require_compiled: json
-I 08/19/2011 14:36:25:791 000005b0              RhoRuby| require_compiled: json/common
-I 08/19/2011 14:36:25:796 000005b0              RhoRuby| require_compiled: json/version
-I 08/19/2011 14:36:25:799 000005b0              RhoRuby| require_compiled: json/pure
-I 08/19/2011 14:36:25:801 000005b0              RhoRuby| require_compiled: json/pure/generator
-I 08/19/2011 14:36:30:646 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:653 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:656 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:656 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:656 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:656 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:656 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:658 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:658 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:658 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:658 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:658 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:661 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:663 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:663 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:663 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:663 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:663 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:666 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:30:666 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:30:666 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:44:065 0000066c            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:36:44:065 0000066c         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/19/2011 14:36:44:065 0000066c                  Net| Method: GET;Url: http://127.0.0.1:54461/system/deactivateapp
-I 08/19/2011 14:36:44:065 00001e00         AppCallbacks| process command: APP-DEACTIVATED
-I 08/19/2011 14:36:44:065 00001e00         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:44:067 000005b0           HttpServer| Process URI: '/system/deactivateapp'
-I 08/19/2011 14:36:44:070 00001ea8       ClientRegister| ClientRegister thread shutdown
-I 08/19/2011 14:36:44:070 0000066c                  Net| Method: GET;Url: http://127.0.0.1:54461/system/uidestroyed
-I 08/19/2011 14:36:44:075 000005b0           HttpServer| Process URI: '/system/uidestroyed'
-I 08/19/2011 14:36:44:075 00001e00         AppCallbacks| Thread shutdown
-I 08/19/2011 14:36:44:077 0000066c           HttpServer| Stopping server...
-I 08/19/2011 14:36:44:077 000005b0            RhodesApp| RhodesApp thread shutdown
-I 08/19/2011 14:36:44:077 0000164c                 Sync| Thread shutdown
-w| WebView: loaded 
-I 08/19/2011 13:55:33:252 000016ac           MainWindow| WebView: loading...
-I 08/19/2011 13:55:33:252 000016ac           MainWindow| WebView: loaded 
-I 08/19/2011 13:55:34:067 000016ac           MainWindow| WebView: loading...
-I 08/19/2011 13:55:34:067 000016ac           MainWindow| WebView: loaded 
-I 08/19/2011 13:55:34:074 000016ac           MainWindow| WebView: loading...
-I 08/19/2011 13:55:34:074 000016ac           MainWindow| WebView: loaded 
-I 08/19/2011 13:55:40:695 000016ac            RhodesApp| callAppActiveCallback
-I 08/19/2011 13:55:40:697 000016ac         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/19/2011 13:55:40:697 000016ac                  Net| Method: GET;Url: http://127.0.0.1:53929/system/deactivateapp
-I 08/19/2011 13:55:40:697 00000898         AppCallbacks| process command: APP-DEACTIVATED
-I 08/19/2011 13:55:40:697 00000898         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 13:55:40:700 000006f8           HttpServer| Process URI: '/system/deactivateapp'
-I 08/19/2011 13:55:40:702 0000193c       ClientRegister| ClientRegister thread shutdown
-I 08/19/2011 13:55:40:702 000016ac                  Net| Method: GET;Url: http://127.0.0.1:53929/system/uidestroyed
-I 08/19/2011 13:55:40:702 000006f8           HttpServer| Process URI: '/system/uidestroyed'
-I 08/19/2011 13:55:40:705 00000898         AppCallbacks| Thread shutdown
-I 08/19/2011 13:55:40:717 000016ac           HttpServer| Stopping server...
-I 08/19/2011 13:55:40:720 000006f8            RhodesApp| RhodesApp thread shutdown
-I 08/19/2011 13:55:40:720 000012d0                 Sync| Thread shutdown
-I 08/19/2011 14:05:05:872 00001d60      Rhodes.cpp: 178| Rhodes started
-I 08/19/2011 14:05:05:872 0000193c         AppCallbacks| Starting main routine...
-I 08/19/2011 14:05:05:872 0000193c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:05:882 00001d60            RhodesApp| Trying to get free listening port.
-I 08/19/2011 14:05:05:884 00001d60            RhodesApp| Trying to bind of 0 port...
-I 08/19/2011 14:05:05:884 00001d60            RhodesApp| Got port to bind on: 54025
-I 08/19/2011 14:05:05:884 00001d60            RhodesApp| Free listening port: 54025
-I 08/19/2011 14:05:05:989 00001d60            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:05:05:989 00001d60         AppCallbacks| addCommand: APP-ACTIVATED
-I 08/19/2011 14:05:05:989 0000193c         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:05:05:989 0000193c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:05:992 00001d60         AppCallbacks| addCommand: UI-CREATED
-I 08/19/2011 14:05:05:992 0000193c         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:05:05:992 00001d60      MainWindowProxy| navigate: 'about:blank'
-I 08/19/2011 14:05:05:992 0000193c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:05:992 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:05:992 00001d54            RhodesApp| Starting RhodesApp main routine...
-I 08/19/2011 14:05:05:992 00001d60           MainWindow| WebView: URL changed
-I 08/19/2011 14:05:05:994 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:05:994 000013c8       ClientRegister| ClientRegister start
-I 08/19/2011 14:05:05:994 000013c8       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:05:05:994 000013c8       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:05:05:999 00001d54              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
-I 08/19/2011 14:05:06:002 00001d54              RhoRuby| require_compiled: rhoframework
-I 08/19/2011 14:05:06:004 00001d54              RhoRuby| require_compiled: rational
-I 08/19/2011 14:05:06:007 00001d54              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 08/19/2011 14:05:06:012 00001d54              RhoRuby| require_compiled: rhodes
-I 08/19/2011 14:05:06:014 00001d54              RhoRuby| require_compiled: rhom/rhom_object
-I 08/19/2011 14:05:06:017 00001d54              RhoRuby| require_compiled: rhofsconnector
-I 08/19/2011 14:05:06:019 00001d54              RhoRuby| require_compiled: rho/rhofsconnector
-I 08/19/2011 14:05:06:022 00001d54              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 08/19/2011 14:05:06:049 00001d54              RhoRuby| require_compiled: rhom/rhom
-I 08/19/2011 14:05:06:052 00001d54              RhoRuby| require_compiled: rhom/rhom_model
-I 08/19/2011 14:05:06:054 00001d54              RhoRuby| require_compiled: rhom
-I 08/19/2011 14:05:06:057 00001d54              RhoRuby| require_compiled: rho/rhoapplication
-I 08/19/2011 14:05:06:059 00001d54              RhoRuby| require_compiled: rholang/localization_simplified
-I 08/19/2011 14:05:06:062 00001d54                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:05:06:064 00001d54                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:05:06:064 00001d54                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:05:06:064 00001d54                  APP| Load english resources.
-I 08/19/2011 14:05:06:064 00001d54              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
-I 08/19/2011 14:05:06:067 00001d54              RhoRuby| require_compiled: rho/rhomsg
-I 08/19/2011 14:05:06:069 00001d54                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:05:06:069 00001d54                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
-I 08/19/2011 14:05:06:069 00001d54              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
-I 08/19/2011 14:05:06:072 00001d54              RhoRuby| require_compiled: rho/rhotabbar
-I 08/19/2011 14:05:06:074 00001d54              RhoRuby| require_compiled: rho/rhotoolbar
-I 08/19/2011 14:05:06:074 00001d54              RhoRuby| require_compiled: indifferent_access
-I 08/19/2011 14:05:06:079 00001d54              RhoRuby| require_compiled: rho/rhosupport
-I 08/19/2011 14:05:06:082 00001d54              RhoRuby| require_compiled: rho/rhocontroller
-I 08/19/2011 14:05:06:087 00001d54              RhoRuby| require_compiled: rho/render
-I 08/19/2011 14:05:06:092 00001d54              RhoRuby| require_compiled: rho/rho
-I 08/19/2011 14:05:06:112 00001d54              RhoRuby| require_compiled: rho/rhoerror
-I 08/19/2011 14:05:06:114 00001d54                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:05:06:114 00001d54                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
-I 08/19/2011 14:05:06:114 00001d54              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
-I 08/19/2011 14:05:06:117 00001d54              RhoRuby| require_compiled: rhom/rhom_source
-E 08/19/2011 14:05:06:122 00001d54              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 08/19/2011 14:05:06:122 00001d54              RhoRuby| require_compiled: rho/rhoviewhelpers
-I 08/19/2011 14:05:06:124 00001d54              RhoRuby| require_compiled: rho
-I 08/19/2011 14:05:06:127 00001d54              RhoRuby| require_compiled: debugger
-I 08/19/2011 14:05:06:134 00001d54              RhoRuby| require_compiled: uri
-I 08/19/2011 14:05:06:137 00001d54              RhoRuby| require_compiled: uri/common
-I 08/19/2011 14:05:06:147 00001d54              RhoRuby| require_compiled: uri/generic
-I 08/19/2011 14:05:06:157 00001d54              RhoRuby| require_compiled: uri/ftp
-I 08/19/2011 14:05:06:162 00001d54              RhoRuby| require_compiled: uri/http
-I 08/19/2011 14:05:06:164 00001d54              RhoRuby| require_compiled: uri/https
-I 08/19/2011 14:05:06:167 00001d54              RhoRuby| require_compiled: uri/ldap
-I 08/19/2011 14:05:06:169 00001d54              RhoRuby| require_compiled: uri/ldaps
-I 08/19/2011 14:05:06:172 00001d54              RhoRuby| require_compiled: uri/mailto
-I 08/19/2011 14:05:06:174 00001d54              RhoRuby| require_compiled: timeout
-I 08/19/2011 14:05:06:177 00001d54                  APP| [Debugger] Opening connection
-I 08/19/2011 14:05:07:179 00001d54                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 08/19/2011 14:05:07:179 00001d54                  APP| RHO loaded
-I 08/19/2011 14:05:07:179 00001d54                  APP| Calling RHO.initialize
-I 08/19/2011 14:05:07:179 00001d54              RhoRuby| require_compiled: rhoappmanifest
-I 08/19/2011 14:05:07:182 00001d54              RhoRuby| require_compiled: find
-I 08/19/2011 14:05:07:194 00001d54                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
-I 08/19/2011 14:05:07:197 00001d54            RhodesApp| Starting sync engine...
-I 08/19/2011 14:05:07:197 00001d54                 Sync| sync_poll_interval: 0
-I 08/19/2011 14:05:07:197 00001d54                 Sync| syncserver: http://localhost:9292/application
-I 08/19/2011 14:05:07:197 00001d54                 Sync| bulksync_state: 0
-I 08/19/2011 14:05:07:197 00001d54            RhodesApp| RhoRubyInitApp...
-I 08/19/2011 14:05:07:197 00001d54                  APP| init_app
-I 08/19/2011 14:05:07:197 00000d0c                 Sync| Starting main routine...
-I 08/19/2011 14:05:07:197 00000d0c                 Sync| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:07:197 00001d54              RhoRuby| require_compiled: application
-I 08/19/2011 14:05:07:199 00001d54                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:05:07:199 00001d54                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
-I 08/19/2011 14:05:07:199 00001d54                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:54025/app/Settings/sync_notify; Params: 
-I 08/19/2011 14:05:07:199 00001d54           HttpServer| Start HTTP server
-I 08/19/2011 14:05:07:202 00001d54         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 08/19/2011 14:05:07:202 0000193c         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 08/19/2011 14:05:07:202 0000193c  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 08/19/2011 14:05:07:202 0000193c         AppCallbacks| process command: UI-CREATED
-I 08/19/2011 14:05:07:202 0000193c                  Net| Method: GET;Url: http://127.0.0.1:54025/system/uicreated
-I 08/19/2011 14:05:07:274 00001d54           HttpServer| Process URI: '/system/uicreated'
-I 08/19/2011 14:05:07:274 00001d54                  APP| on_ui_created.navigate to start url: '/app'
-I 08/19/2011 14:05:07:274 00001d60      MainWindowProxy| navigate: 'http://127.0.0.1:54025/app'
-I 08/19/2011 14:05:07:274 0000193c         AppCallbacks| process command: APP-ACTIVATED
-I 08/19/2011 14:05:07:274 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:07:274 0000193c                  Net| Method: GET;Url: http://127.0.0.1:54025/system/activateapp
-I 08/19/2011 14:05:07:277 00001d54           HttpServer| Process URI: '/system/activateapp'
-I 08/19/2011 14:05:07:277 0000193c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:07:277 00001d54           HttpServer| Process URI: '/app'
-I 08/19/2011 14:05:07:279 00001d54           HttpServer| Process URI: '/app/index.erb'
-I 08/19/2011 14:05:07:279 00001d54                  APP| RHO serve_index: /app/index.erb
-I 08/19/2011 14:05:07:279 00001d54 RHO Rho::RhoController| inst_render_index
-I 08/19/2011 14:05:07:282 00001d54              RhoRuby| require_compiled: erb
-I 08/19/2011 14:05:07:289 00001d54                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
-I 08/19/2011 14:05:07:289 00001d54 RHO Rho::RhoController| index layout
-I 08/19/2011 14:05:07:289 00001d54                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
-I 08/19/2011 14:05:07:292 00001d60           MainWindow| WebView: URL changed
-I 08/19/2011 14:05:07:314 00001d54           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
-I 08/19/2011 14:05:07:334 00001d54           HttpServer| Process URI: '/public/css/sencha.css'
-I 08/19/2011 14:05:07:337 00001d54           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
-I 08/19/2011 14:05:07:367 00001d54           HttpServer| Process URI: '/public/app/rhodes.js'
-I 08/19/2011 14:05:07:369 00001d54           HttpServer| Process URI: '/public/app/account.js'
-I 08/19/2011 14:05:07:372 00001d54           HttpServer| Process URI: '/public/app/contact.js'
-I 08/19/2011 14:05:07:374 00001d54           HttpServer| Process URI: '/public/app/about.js'
-I 08/19/2011 14:05:07:377 00001d54           HttpServer| Process URI: '/public/app/login.js'
-I 08/19/2011 14:05:07:494 00001d54           HttpServer| Process URI: '/public/app/index.js'
-I 08/19/2011 14:05:08:392 00001d54           HttpServer| Process URI: '/app/Saccount/alljson'
-E 08/19/2011 14:05:08:394 00001d54           HttpServer| The file /app/Saccount/alljson was not found
-I 08/19/2011 14:05:08:394 00001d54           HttpServer| Process URI: '/app/Scontact/alljson'
-E 08/19/2011 14:05:08:394 00001d54           HttpServer| The file /app/Scontact/alljson was not found
-I 08/19/2011 14:05:08:477 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:09:539 00001d54           HttpServer| Process URI: '/app/Settings/logged_in'
-I 08/19/2011 14:05:09:539 00001d54                  APP| RHO serve: /app/Settings/logged_in
-I 08/19/2011 14:05:09:539 00001d54              RhoRuby| require_compiled: Settings/controller
-I 08/19/2011 14:05:09:542 00001d54              RhoRuby| require_compiled: helpers/browser_helper
-I 08/19/2011 14:05:09:544 00001d54              RhoRuby| require_compiled: json
-I 08/19/2011 14:05:09:544 00001d54              RhoRuby| require_compiled: json/common
-I 08/19/2011 14:05:09:549 00001d54              RhoRuby| require_compiled: json/version
-I 08/19/2011 14:05:09:552 00001d54              RhoRuby| require_compiled: json/pure
-I 08/19/2011 14:05:09:554 00001d54              RhoRuby| require_compiled: json/pure/generator
-I 08/19/2011 14:05:18:747 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:747 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:749 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:749 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:749 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:749 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:752 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:754 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:754 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:754 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:754 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:754 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:757 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:757 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:757 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:757 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:757 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:759 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:759 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:18:759 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:18:759 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:19:571 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:19:571 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:19:573 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:19:573 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:19:586 00001d60           MainWindow| WebView: loading...
-I 08/19/2011 14:05:19:586 00001d60           MainWindow| WebView: loaded 
-I 08/19/2011 14:05:39:551 00001d60            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:05:39:554 00001d60         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/19/2011 14:05:39:554 00001d60                  Net| Method: GET;Url: http://127.0.0.1:54025/system/deactivateapp
-I 08/19/2011 14:05:39:554 0000193c         AppCallbacks| process command: APP-DEACTIVATED
-I 08/19/2011 14:05:39:554 0000193c         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:05:39:559 00001d54           HttpServer| Process URI: '/system/deactivateapp'
-I 08/19/2011 14:05:39:561 000013c8       ClientRegister| ClientRegister thread shutdown
-I 08/19/2011 14:05:39:564 00001d60                  Net| Method: GET;Url: http://127.0.0.1:54025/system/uidestroyed
-I 08/19/2011 14:05:39:564 00001d54           HttpServer| Process URI: '/system/uidestroyed'
-I 08/19/2011 14:05:39:564 0000193c         AppCallbacks| Thread shutdown
-I 08/19/2011 14:05:39:564 00001d60           HttpServer| Stopping server...
-I 08/19/2011 14:05:39:566 00001d54            RhodesApp| RhodesApp thread shutdown
-I 08/19/2011 14:05:39:566 00000d0c                 Sync| Thread shutdown
-I 08/19/2011 14:12:25:348 000013f4      Rhodes.cpp: 178| Rhodes started
-I 08/19/2011 14:12:25:348 000003c4         AppCallbacks| Starting main routine...
-I 08/19/2011 14:12:25:348 000003c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:25:356 000013f4            RhodesApp| Trying to get free listening port.
-I 08/19/2011 14:12:25:358 000013f4            RhodesApp| Trying to bind of 0 port...
-I 08/19/2011 14:12:25:358 000013f4            RhodesApp| Got port to bind on: 54220
-I 08/19/2011 14:12:25:358 000013f4            RhodesApp| Free listening port: 54220
-I 08/19/2011 14:12:25:468 000013f4            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:12:25:468 000013f4         AppCallbacks| addCommand: APP-ACTIVATED
-I 08/19/2011 14:12:25:468 000003c4         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:12:25:468 000003c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:25:478 000013f4         AppCallbacks| addCommand: UI-CREATED
-I 08/19/2011 14:12:25:478 000003c4         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:12:25:481 000003c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:25:481 000013f4      MainWindowProxy| navigate: 'about:blank'
-I 08/19/2011 14:12:25:481 000013f4           MainWindow| WebView: loading...
-I 08/19/2011 14:12:25:481 0000171c            RhodesApp| Starting RhodesApp main routine...
-I 08/19/2011 14:12:25:481 000013f4           MainWindow| WebView: URL changed
-I 08/19/2011 14:12:25:481 000013f4           MainWindow| WebView: loaded 
-I 08/19/2011 14:12:25:483 00001ca4       ClientRegister| ClientRegister start
-I 08/19/2011 14:12:25:483 00001ca4       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:12:25:483 00001ca4       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:12:25:486 0000171c              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
-I 08/19/2011 14:12:25:493 0000171c              RhoRuby| require_compiled: rhoframework
-I 08/19/2011 14:12:25:496 0000171c              RhoRuby| require_compiled: rational
-I 08/19/2011 14:12:25:498 0000171c              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 08/19/2011 14:12:25:513 0000171c              RhoRuby| require_compiled: rhodes
-I 08/19/2011 14:12:25:518 0000171c              RhoRuby| require_compiled: rhom/rhom_object
-I 08/19/2011 14:12:25:518 0000171c              RhoRuby| require_compiled: rhofsconnector
-I 08/19/2011 14:12:25:521 0000171c              RhoRuby| require_compiled: rho/rhofsconnector
-I 08/19/2011 14:12:25:523 0000171c              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 08/19/2011 14:12:25:551 0000171c              RhoRuby| require_compiled: rhom/rhom
-I 08/19/2011 14:12:25:553 0000171c              RhoRuby| require_compiled: rhom/rhom_model
-I 08/19/2011 14:12:25:558 0000171c              RhoRuby| require_compiled: rhom
-I 08/19/2011 14:12:25:558 0000171c              RhoRuby| require_compiled: rho/rhoapplication
-I 08/19/2011 14:12:25:561 0000171c              RhoRuby| require_compiled: rholang/localization_simplified
-I 08/19/2011 14:12:25:566 0000171c                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:12:25:566 0000171c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:12:25:566 0000171c                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:12:25:566 0000171c                  APP| Load english resources.
-I 08/19/2011 14:12:25:566 0000171c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
-I 08/19/2011 14:12:25:571 0000171c              RhoRuby| require_compiled: rho/rhomsg
-I 08/19/2011 14:12:25:571 0000171c                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:12:25:571 0000171c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
-I 08/19/2011 14:12:25:573 0000171c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
-I 08/19/2011 14:12:25:573 0000171c              RhoRuby| require_compiled: rho/rhotabbar
-I 08/19/2011 14:12:25:576 0000171c              RhoRuby| require_compiled: rho/rhotoolbar
-I 08/19/2011 14:12:25:578 0000171c              RhoRuby| require_compiled: indifferent_access
-I 08/19/2011 14:12:25:586 0000171c              RhoRuby| require_compiled: rho/rhosupport
-I 08/19/2011 14:12:25:591 0000171c              RhoRuby| require_compiled: rho/rhocontroller
-I 08/19/2011 14:12:25:596 0000171c              RhoRuby| require_compiled: rho/render
-I 08/19/2011 14:12:25:601 0000171c              RhoRuby| require_compiled: rho/rho
-I 08/19/2011 14:12:25:616 0000171c              RhoRuby| require_compiled: rho/rhoerror
-I 08/19/2011 14:12:25:618 0000171c                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:12:25:618 0000171c                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
-I 08/19/2011 14:12:25:618 0000171c              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
-I 08/19/2011 14:12:25:623 0000171c              RhoRuby| require_compiled: rhom/rhom_source
-E 08/19/2011 14:12:25:626 0000171c              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 08/19/2011 14:12:25:626 0000171c              RhoRuby| require_compiled: rho/rhoviewhelpers
-I 08/19/2011 14:12:25:628 0000171c              RhoRuby| require_compiled: rho
-I 08/19/2011 14:12:25:631 0000171c              RhoRuby| require_compiled: debugger
-I 08/19/2011 14:12:25:638 0000171c              RhoRuby| require_compiled: uri
-I 08/19/2011 14:12:25:641 0000171c              RhoRuby| require_compiled: uri/common
-I 08/19/2011 14:12:25:651 0000171c              RhoRuby| require_compiled: uri/generic
-I 08/19/2011 14:12:25:661 0000171c              RhoRuby| require_compiled: uri/ftp
-I 08/19/2011 14:12:25:666 0000171c              RhoRuby| require_compiled: uri/http
-I 08/19/2011 14:12:25:666 0000171c              RhoRuby| require_compiled: uri/https
-I 08/19/2011 14:12:25:668 0000171c              RhoRuby| require_compiled: uri/ldap
-I 08/19/2011 14:12:25:671 0000171c              RhoRuby| require_compiled: uri/ldaps
-I 08/19/2011 14:12:25:673 0000171c              RhoRuby| require_compiled: uri/mailto
-I 08/19/2011 14:12:25:678 0000171c              RhoRuby| require_compiled: timeout
-I 08/19/2011 14:12:25:681 0000171c                  APP| [Debugger] Opening connection
-I 08/19/2011 14:12:26:691 0000171c                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
-I 08/19/2011 14:12:26:691 0000171c                  APP| RHO loaded
-I 08/19/2011 14:12:26:691 0000171c                  APP| Calling RHO.initialize
-I 08/19/2011 14:12:26:691 0000171c              RhoRuby| require_compiled: rhoappmanifest
-I 08/19/2011 14:12:26:693 0000171c              RhoRuby| require_compiled: find
-I 08/19/2011 14:12:26:706 0000171c                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
-I 08/19/2011 14:12:26:708 0000171c            RhodesApp| Starting sync engine...
-I 08/19/2011 14:12:26:708 0000171c                 Sync| sync_poll_interval: 0
-I 08/19/2011 14:12:26:708 0000171c                 Sync| syncserver: http://localhost:9292/application
-I 08/19/2011 14:12:26:708 0000171c                 Sync| bulksync_state: 0
-I 08/19/2011 14:12:26:708 0000171c            RhodesApp| RhoRubyInitApp...
-I 08/19/2011 14:12:26:708 0000171c                  APP| init_app
-I 08/19/2011 14:12:26:708 0000167c                 Sync| Starting main routine...
-I 08/19/2011 14:12:26:708 0000171c              RhoRuby| require_compiled: application
-I 08/19/2011 14:12:26:708 0000167c                 Sync| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:26:711 0000171c                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:12:26:711 0000171c                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
-I 08/19/2011 14:12:26:711 0000171c                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:54220/app/Settings/sync_notify; Params: 
-I 08/19/2011 14:12:26:711 0000171c           HttpServer| Start HTTP server
-I 08/19/2011 14:12:26:713 0000171c         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
-I 08/19/2011 14:12:26:713 000003c4         AppCallbacks| process command: LOCAL-SERVER-STARTED
-I 08/19/2011 14:12:26:713 000003c4  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
-I 08/19/2011 14:12:26:713 000003c4         AppCallbacks| process command: UI-CREATED
-I 08/19/2011 14:12:26:713 000003c4                  Net| Method: GET;Url: http://127.0.0.1:54220/system/uicreated
-I 08/19/2011 14:12:26:791 0000171c           HttpServer| Process URI: '/system/uicreated'
-I 08/19/2011 14:12:26:791 0000171c                  APP| on_ui_created.navigate to start url: '/app'
-I 08/19/2011 14:12:26:791 000013f4      MainWindowProxy| navigate: 'http://127.0.0.1:54220/app'
-I 08/19/2011 14:12:26:791 000003c4         AppCallbacks| process command: APP-ACTIVATED
-I 08/19/2011 14:12:26:791 000003c4                  Net| Method: GET;Url: http://127.0.0.1:54220/system/activateapp
-I 08/19/2011 14:12:26:791 000013f4           MainWindow| WebView: loading...
-I 08/19/2011 14:12:26:791 0000171c           HttpServer| Process URI: '/system/activateapp'
-I 08/19/2011 14:12:26:793 000003c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:26:793 0000171c           HttpServer| Process URI: '/app'
-I 08/19/2011 14:12:26:796 0000171c           HttpServer| Process URI: '/app/index.erb'
-I 08/19/2011 14:12:26:796 0000171c                  APP| RHO serve_index: /app/index.erb
-I 08/19/2011 14:12:26:796 0000171c RHO Rho::RhoController| inst_render_index
-I 08/19/2011 14:12:26:796 0000171c              RhoRuby| require_compiled: erb
-I 08/19/2011 14:12:26:806 0000171c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
-I 08/19/2011 14:12:26:808 0000171c RHO Rho::RhoController| index layout
-I 08/19/2011 14:12:26:808 0000171c                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
-I 08/19/2011 14:12:26:808 000013f4           MainWindow| WebView: URL changed
-I 08/19/2011 14:12:26:831 0000171c           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
-I 08/19/2011 14:12:26:853 0000171c           HttpServer| Process URI: '/public/css/sencha.css'
-I 08/19/2011 14:12:26:856 0000171c           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
-I 08/19/2011 14:12:26:890 0000171c           HttpServer| Process URI: '/public/app/rhodes.js'
-I 08/19/2011 14:12:26:892 0000171c           HttpServer| Process URI: '/public/app/account.js'
-I 08/19/2011 14:12:26:895 0000171c           HttpServer| Process URI: '/public/app/contact.js'
-I 08/19/2011 14:12:26:897 0000171c           HttpServer| Process URI: '/public/app/about.js'
-I 08/19/2011 14:12:26:900 0000171c           HttpServer| Process URI: '/public/app/login.js'
-I 08/19/2011 14:12:26:980 0000171c           HttpServer| Process URI: '/public/app/index.js'
-I 08/19/2011 14:12:28:199 0000171c           HttpServer| Process URI: '/app/Saccount/alljson'
-E 08/19/2011 14:12:28:199 0000171c           HttpServer| The file /app/Saccount/alljson was not found
-I 08/19/2011 14:12:28:199 0000171c           HttpServer| Process URI: '/app/Scontact/alljson'
-E 08/19/2011 14:12:28:199 0000171c           HttpServer| The file /app/Scontact/alljson was not found
-I 08/19/2011 14:12:28:297 000013f4           MainWindow| WebView: loaded 
-I 08/19/2011 14:12:29:364 0000171c           HttpServer| Process URI: '/app/Settings/logged_in'
-I 08/19/2011 14:12:29:364 0000171c                  APP| RHO serve: /app/Settings/logged_in
-I 08/19/2011 14:12:29:364 0000171c              RhoRuby| require_compiled: Settings/controller
-I 08/19/2011 14:12:29:366 0000171c              RhoRuby| require_compiled: helpers/browser_helper
-I 08/19/2011 14:12:29:369 0000171c              RhoRuby| require_compiled: json
-I 08/19/2011 14:12:29:369 0000171c              RhoRuby| require_compiled: json/common
-I 08/19/2011 14:12:29:374 0000171c              RhoRuby| require_compiled: json/version
-I 08/19/2011 14:12:29:376 0000171c              RhoRuby| require_compiled: json/pure
-I 08/19/2011 14:12:29:379 0000171c              RhoRuby| require_compiled: json/pure/generator
-I 08/19/2011 14:12:39:466 000013f4            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:12:39:466 000013f4         AppCallbacks| addCommand: APP-DEACTIVATED
-I 08/19/2011 14:12:39:466 000013f4                  Net| Method: GET;Url: http://127.0.0.1:54220/system/deactivateapp
-I 08/19/2011 14:12:39:466 000003c4         AppCallbacks| process command: APP-DEACTIVATED
-I 08/19/2011 14:12:39:466 000003c4         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:12:39:468 0000171c           HttpServer| Process URI: '/system/deactivateapp'
-I 08/19/2011 14:12:39:471 00001ca4       ClientRegister| ClientRegister thread shutdown
-I 08/19/2011 14:12:39:471 000013f4                  Net| Method: GET;Url: http://127.0.0.1:54220/system/uidestroyed
-I 08/19/2011 14:12:39:471 0000171c           HttpServer| Process URI: '/system/uidestroyed'
-I 08/19/2011 14:12:39:471 000003c4         AppCallbacks| Thread shutdown
-I 08/19/2011 14:12:39:473 000013f4           HttpServer| Stopping server...
-I 08/19/2011 14:12:39:473 0000171c            RhodesApp| RhodesApp thread shutdown
-I 08/19/2011 14:12:39:473 0000167c                 Sync| Thread shutdown
-I 08/19/2011 14:36:19:620 0000066c      Rhodes.cpp: 178| Rhodes started
-I 08/19/2011 14:36:19:623 00001e00         AppCallbacks| Starting main routine...
-I 08/19/2011 14:36:19:623 00001e00         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:19:630 0000066c            RhodesApp| Trying to get free listening port.
-I 08/19/2011 14:36:19:633 0000066c            RhodesApp| Trying to bind of 0 port...
-I 08/19/2011 14:36:19:633 0000066c            RhodesApp| Got port to bind on: 54461
-I 08/19/2011 14:36:19:633 0000066c            RhodesApp| Free listening port: 54461
-I 08/19/2011 14:36:19:761 0000066c            RhodesApp| callAppActiveCallback
-I 08/19/2011 14:36:19:761 0000066c         AppCallbacks| addCommand: APP-ACTIVATED
-I 08/19/2011 14:36:19:761 00001e00         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:36:19:761 00001e00         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:19:763 0000066c         AppCallbacks| addCommand: UI-CREATED
-I 08/19/2011 14:36:19:763 00001e00         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
-I 08/19/2011 14:36:19:763 00001e00         AppCallbacks| ThreadQueue blocked for 300 seconds...
-I 08/19/2011 14:36:19:763 0000066c      MainWindowProxy| navigate: 'about:blank'
-I 08/19/2011 14:36:19:763 000005b0            RhodesApp| Starting RhodesApp main routine...
-I 08/19/2011 14:36:19:763 0000066c           MainWindow| WebView: loading...
-I 08/19/2011 14:36:19:763 0000066c           MainWindow| WebView: URL changed
-I 08/19/2011 14:36:19:763 0000066c           MainWindow| WebView: loaded 
-I 08/19/2011 14:36:19:766 00001ea8       ClientRegister| ClientRegister start
-I 08/19/2011 14:36:19:766 00001ea8       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:36:19:766 00001ea8       ClientRegister| Waiting for 60 sec to try again to register client
-I 08/19/2011 14:36:19:768 000005b0              RhoRuby| Init_RhoBlobs: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/db-files
-I 08/19/2011 14:36:19:768 000005b0              RhoRuby| require_compiled: rhoframework
-I 08/19/2011 14:36:19:771 000005b0              RhoRuby| require_compiled: rational
-I 08/19/2011 14:36:19:773 000005b0              RhoRuby| require_compiled: rhom/rhom_db_adapter
-I 08/19/2011 14:36:19:781 000005b0              RhoRuby| require_compiled: rhodes
-I 08/19/2011 14:36:19:783 000005b0              RhoRuby| require_compiled: rhom/rhom_object
-I 08/19/2011 14:36:19:786 000005b0              RhoRuby| require_compiled: rhofsconnector
-I 08/19/2011 14:36:19:786 000005b0              RhoRuby| require_compiled: rho/rhofsconnector
-I 08/19/2011 14:36:19:791 000005b0              RhoRuby| require_compiled: rhom/rhom_object_factory
-I 08/19/2011 14:36:19:821 000005b0              RhoRuby| require_compiled: rhom/rhom
-I 08/19/2011 14:36:19:823 000005b0              RhoRuby| require_compiled: rhom/rhom_model
-I 08/19/2011 14:36:19:828 000005b0              RhoRuby| require_compiled: rhom
-I 08/19/2011 14:36:19:831 000005b0              RhoRuby| require_compiled: rho/rhoapplication
-I 08/19/2011 14:36:19:833 000005b0              RhoRuby| require_compiled: rholang/localization_simplified
-I 08/19/2011 14:36:19:838 000005b0                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:36:19:838 000005b0                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:36:19:838 000005b0                  APP| Could not find resources for locale: de;file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_
-I 08/19/2011 14:36:19:838 000005b0                  APP| Load english resources.
-I 08/19/2011 14:36:19:838 000005b0              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/lang_en
-I 08/19/2011 14:36:19:841 000005b0              RhoRuby| require_compiled: rho/rhomsg
-I 08/19/2011 14:36:19:843 000005b0                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:36:19:843 000005b0                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_
-I 08/19/2011 14:36:19:843 000005b0              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhomsg_de
-I 08/19/2011 14:36:19:846 000005b0              RhoRuby| require_compiled: rho/rhotabbar
-I 08/19/2011 14:36:19:846 000005b0              RhoRuby| require_compiled: rho/rhotoolbar
-I 08/19/2011 14:36:19:848 000005b0              RhoRuby| require_compiled: indifferent_access
-I 08/19/2011 14:36:19:851 000005b0              RhoRuby| require_compiled: rho/rhosupport
-I 08/19/2011 14:36:19:856 000005b0              RhoRuby| require_compiled: rho/rhocontroller
-I 08/19/2011 14:36:19:861 000005b0              RhoRuby| require_compiled: rho/render
-I 08/19/2011 14:36:19:868 000005b0              RhoRuby| require_compiled: rho/rho
-I 08/19/2011 14:36:19:886 000005b0              RhoRuby| require_compiled: rho/rhoerror
-I 08/19/2011 14:36:19:886 000005b0                  APP| Current locale: de; Country code: at
-I 08/19/2011 14:36:19:886 000005b0                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
-I 08/19/2011 14:36:19:888 000005b0              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
-I 08/19/2011 14:36:19:891 000005b0              RhoRuby| require_compiled: rhom/rhom_source
-E 08/19/2011 14:36:19:893 000005b0              RhoRuby| require_compiled: error: can not find rhodes_translator
-I 08/19/2011 14:36:19:896 000005b0              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 08/19/2011 15:12:15:120 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:12:15:136 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:12:15:151 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:12:15:167 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:12:15:167 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:12:15:198 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:12:15:198 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:12:15:198 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:12:15:198 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:12:15:198 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:12:15:276 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:12:15:479 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:12:15:479 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:12:15:479 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:12:15:479 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:12:15:526 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:16:574 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:12:16:574 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:12:16:574 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:16:574 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:18:497 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:31:488 00001d58       ClientRegister| Waiting for 4294967295 sec to try again to register client
+I 08/19/2011 15:12:37:457 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:12:37:457 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:12:37:457 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:37:457 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:37:473 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:12:37:473 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:12:37:473 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:12:37:473 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:12:37:473 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:12:37:473 00001698                  Net| Cookie : 
+I 08/19/2011 15:12:38:178 00000664           HttpServer| Process URI: '/public/images/csc_small.png'
+E 08/19/2011 15:12:39:490 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:12:39:490 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:12:39:490 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:12:39:490 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:12:39:490 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:12:39:490 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:39:490 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:39:490 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:12:39:490 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:12:39:490 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:39:490 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:12:39:490 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:12:39:490 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:12:39:490 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:12:39:490 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:12:39:490 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:12:39:490 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:12:39:490 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:12:39:506 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:12:39:521 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:12:39:537 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:12:39:537 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:12:39:554 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:12:39:554 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:12:39:569 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:12:39:569 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:12:39:569 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:12:39:647 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:12:39:834 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:12:39:834 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:12:39:834 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:12:39:834 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:12:39:881 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:40:947 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:12:40:947 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:12:40:947 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:40:947 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:42:664 00000664           HttpServer| Process URI: '/public/images/csc_small.png'
+I 08/19/2011 15:12:43:462 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:12:43:462 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:12:43:462 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:43:462 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:43:462 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:12:43:462 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:12:43:462 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:12:43:462 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:12:43:462 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:12:43:462 00001698                  Net| Cookie : 
+E 08/19/2011 15:12:45:512 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:12:45:512 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:12:45:512 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:12:45:512 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:12:45:512 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:12:45:512 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:45:512 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:45:512 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:12:45:512 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:12:45:512 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:45:512 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:12:45:512 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:12:45:512 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:12:45:512 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:12:45:512 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:12:45:512 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:12:45:512 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:12:45:512 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:12:45:527 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:12:45:543 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:12:45:543 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:12:45:558 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:12:45:574 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:12:45:590 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:12:45:590 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:12:45:590 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:12:45:590 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:12:45:668 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:12:45:870 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:12:45:870 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:12:45:870 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:12:45:870 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:12:45:917 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:46:979 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:12:46:979 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:12:46:979 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:46:979 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:52:738 00001ecc            RhodesApp| callAppActiveCallback
+I 08/19/2011 15:12:52:738 00001ecc         AppCallbacks| addCommand: APP-DEACTIVATED
+I 08/19/2011 15:12:52:738 00001ecc                  Net| Method: GET;Url: http://127.0.0.1:54950/system/deactivateapp
+I 08/19/2011 15:12:52:738 00000664           HttpServer| Process URI: '/system/deactivateapp'
+I 08/19/2011 15:12:52:738 00001e3c         AppCallbacks| process command: APP-DEACTIVATED
+I 08/19/2011 15:12:52:738 00001e3c         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:12:52:738 00001d58       ClientRegister| ClientRegister thread shutdown
+I 08/19/2011 15:12:52:738 00001ecc                  Net| Method: GET;Url: http://127.0.0.1:54950/system/uidestroyed
+I 08/19/2011 15:12:52:738 00000664           HttpServer| Process URI: '/system/uidestroyed'
+I 08/19/2011 15:12:52:754 00001e3c         AppCallbacks| Thread shutdown
+I 08/19/2011 15:12:52:754 00001ecc           HttpServer| Stopping server...
+I 08/19/2011 15:12:52:754 00000664            RhodesApp| RhodesApp thread shutdown
+I 08/19/2011 15:12:52:754 00001698                 Sync| Thread shutdown
+15:11:31:547 00000664              RhoRuby| require_compiled: rho/rhotabbar
+I 08/19/2011 15:11:31:547 00000664              RhoRuby| require_compiled: rho/rhotoolbar
+I 08/19/2011 15:11:31:563 00000664              RhoRuby| require_compiled: indifferent_access
+I 08/19/2011 15:11:31:563 00000664              RhoRuby| require_compiled: rho/rhosupport
+I 08/19/2011 15:11:31:563 00000664              RhoRuby| require_compiled: rho/rhocontroller
+I 08/19/2011 15:11:31:563 00000664              RhoRuby| require_compiled: rho/render
+I 08/19/2011 15:11:31:579 00000664              RhoRuby| require_compiled: rho/rho
+I 08/19/2011 15:11:31:594 00000664              RhoRuby| require_compiled: rho/rhoerror
+I 08/19/2011 15:11:31:594 00000664                  APP| Current locale: de; Country code: at
+I 08/19/2011 15:11:31:594 00000664                  APP| file: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_
+I 08/19/2011 15:11:31:594 00000664              RhoRuby| require_compiled: C:/InstantRhodes/ruby/lib/ruby/gems/1.8/gems/rhodes-3.0.2/lib/framework/rholang/rhoerror_de
+I 08/19/2011 15:11:31:594 00000664              RhoRuby| require_compiled: rhom/rhom_source
+E 08/19/2011 15:11:31:594 00000664              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 08/19/2011 15:11:31:594 00000664              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 08/19/2011 15:11:31:610 00000664              RhoRuby| require_compiled: rho
+I 08/19/2011 15:11:31:610 00000664              RhoRuby| require_compiled: debugger
+I 08/19/2011 15:11:31:610 00000664              RhoRuby| require_compiled: uri
+I 08/19/2011 15:11:31:610 00000664              RhoRuby| require_compiled: uri/common
+I 08/19/2011 15:11:31:625 00000664              RhoRuby| require_compiled: uri/generic
+I 08/19/2011 15:11:31:641 00000664              RhoRuby| require_compiled: uri/ftp
+I 08/19/2011 15:11:31:641 00000664              RhoRuby| require_compiled: uri/http
+I 08/19/2011 15:11:31:641 00000664              RhoRuby| require_compiled: uri/https
+I 08/19/2011 15:11:31:641 00000664              RhoRuby| require_compiled: uri/ldap
+I 08/19/2011 15:11:31:641 00000664              RhoRuby| require_compiled: uri/ldaps
+I 08/19/2011 15:11:31:657 00000664              RhoRuby| require_compiled: uri/mailto
+I 08/19/2011 15:11:31:657 00000664              RhoRuby| require_compiled: timeout
+I 08/19/2011 15:11:31:657 00000664                  APP| [Debugger] Opening connection
+I 08/19/2011 15:11:32:671 00000664                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 08/19/2011 15:11:32:671 00000664                  APP| RHO loaded
+I 08/19/2011 15:11:32:671 00000664                  APP| Calling RHO.initialize
+I 08/19/2011 15:11:32:671 00000664              RhoRuby| require_compiled: rhoappmanifest
+I 08/19/2011 15:11:32:671 00000664              RhoRuby| require_compiled: find
+I 08/19/2011 15:11:32:686 00000664                   DB| Open DB: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\rhosimulator/db/syncdbuser.sqlite
+I 08/19/2011 15:11:32:686 00000664            RhodesApp| Starting sync engine...
+I 08/19/2011 15:11:32:686 00000664                 Sync| sync_poll_interval: 0
+I 08/19/2011 15:11:32:686 00000664                 Sync| syncserver: http://localhost:9292/application
+I 08/19/2011 15:11:32:686 00000664                 Sync| bulksync_state: 0
+I 08/19/2011 15:11:32:686 00000664            RhodesApp| RhoRubyInitApp...
+I 08/19/2011 15:11:32:686 00000664                  APP| init_app
+I 08/19/2011 15:11:32:686 00001698                 Sync| Starting main routine...
+I 08/19/2011 15:11:32:686 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:11:32:686 00000664              RhoRuby| require_compiled: application
+I 08/19/2011 15:11:32:686 00000664                  APP| Current locale: de; Country code: at
+I 08/19/2011 15:11:32:686 00000664                  APP| Could not find resources for locale: de;file: C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/lang/lang_
+I 08/19/2011 15:11:32:686 00000664                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:54950/app/Settings/sync_notify; Params: 
+I 08/19/2011 15:11:32:686 00000664           HttpServer| Start HTTP server
+I 08/19/2011 15:11:32:686 00000664         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 08/19/2011 15:11:32:686 00001e3c         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 08/19/2011 15:11:32:686 00001e3c  SystemImpl.cpp: 650| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 08/19/2011 15:11:32:686 00001e3c         AppCallbacks| process command: UI-CREATED
+I 08/19/2011 15:11:32:686 00001e3c                  Net| Method: GET;Url: http://127.0.0.1:54950/system/uicreated
+I 08/19/2011 15:11:32:764 00000664           HttpServer| Process URI: '/system/uicreated'
+I 08/19/2011 15:11:32:764 00000664                  APP| on_ui_created.navigate to start url: '/app'
+I 08/19/2011 15:11:32:764 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:11:32:764 00001e3c         AppCallbacks| process command: APP-ACTIVATED
+I 08/19/2011 15:11:32:764 00001e3c                  Net| Method: GET;Url: http://127.0.0.1:54950/system/activateapp
+I 08/19/2011 15:11:32:764 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:32:764 00000664           HttpServer| Process URI: '/system/activateapp'
+I 08/19/2011 15:11:32:764 00001e3c         AppCallbacks| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:11:32:764 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:11:32:764 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:11:32:764 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:11:32:764 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:11:32:764 00000664              RhoRuby| require_compiled: erb
+I 08/19/2011 15:11:32:780 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:11:32:780 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:11:32:780 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:11:32:780 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:11:32:795 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:11:32:827 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:11:32:827 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:11:32:858 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:11:32:858 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:11:32:858 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:11:32:858 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:11:32:873 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:11:32:998 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:11:33:388 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:11:33:388 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:11:33:388 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:11:33:388 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:11:33:482 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:34:575 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:11:34:575 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:11:34:575 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:34:575 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:34:575 00000664              RhoRuby| require_compiled: json
+I 08/19/2011 15:11:34:575 00000664              RhoRuby| require_compiled: json/common
+I 08/19/2011 15:11:34:575 00000664              RhoRuby| require_compiled: json/version
+I 08/19/2011 15:11:34:590 00000664              RhoRuby| require_compiled: json/pure
+I 08/19/2011 15:11:34:591 00000664              RhoRuby| require_compiled: json/pure/generator
+I 08/19/2011 15:11:36:792 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:36:792 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:36:792 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:36:792 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:36:792 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:36:808 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:36:808 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:36:808 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:11:36:808 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:36:808 00001698                  Net| Cookie : 
+I 08/19/2011 15:11:37:394 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:37:394 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:37:394 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:37:394 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:37:409 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:37:409 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:37:409 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:37:409 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:37:584 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:37:584 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:37:584 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:37:584 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:37:600 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:37:600 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:37:600 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:37:600 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:37:600 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:37:725 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:37:725 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:37:725 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:37:742 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:37:742 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:37:742 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:37:742 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:37:742 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:37:742 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:37:895 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:37:895 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:37:895 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:37:911 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:37:911 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:37:911 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:37:911 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:37:911 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:37:911 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:38:078 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:38:078 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:38:078 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:38:078 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:38:094 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:38:094 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:38:094 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:38:094 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:38:094 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:38:253 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:38:253 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:38:253 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:38:253 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:38:268 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:38:268 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:38:268 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:38:268 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:38:268 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:38:428 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:38:428 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:38:428 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:38:428 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:38:444 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:38:444 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:38:444 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:38:444 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:38:444 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:38:619 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:38:619 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:38:619 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:38:619 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:38:619 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:11:38:619 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:38:619 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:38:619 00000664                 Sync| Command already exists in queue. Skip it.
+I 08/19/2011 15:11:38:619 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+E 08/19/2011 15:11:38:839 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:11:38:839 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:11:38:839 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:11:38:839 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:11:38:839 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:11:38:839 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:38:839 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:38:839 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:11:38:839 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:11:38:839 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:38:839 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:11:38:839 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:11:38:839 00001698                  Net| Cookie : 
+I 08/19/2011 15:11:38:839 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:11:38:839 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:11:38:839 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:11:38:839 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:11:38:855 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:11:38:855 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:11:38:855 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:11:38:870 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:11:38:886 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:11:38:886 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:11:38:917 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:11:38:917 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:11:38:933 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:11:38:933 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:11:38:933 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:11:39:011 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:11:39:214 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:11:39:214 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:11:39:214 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:11:39:214 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:11:39:260 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:40:321 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:11:40:321 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:11:40:321 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:40:321 00000664              RhoRuby| require_compiled: helpers/browser_helper
+E 08/19/2011 15:11:40:883 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:11:40:883 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:11:40:883 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:11:40:883 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:11:40:883 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:11:40:883 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:40:883 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:40:883 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:11:40:883 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:11:40:883 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:40:883 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:11:40:883 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:11:40:883 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:11:40:883 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:11:40:883 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:11:40:883 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:11:40:883 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:11:40:883 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:11:40:899 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:11:40:899 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:11:40:914 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:11:40:914 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:11:40:930 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:11:40:946 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:11:40:946 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:11:40:961 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:11:40:961 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:11:40:961 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:11:41:024 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:11:41:164 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:11:41:164 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:11:41:164 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:11:41:164 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:11:41:211 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:42:276 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:11:42:276 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:11:42:276 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:42:276 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:46:775 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:11:46:775 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:11:46:775 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:46:775 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:46:775 00000664                  APP| Params: {"login"=>"sadf", "password"=>"dsaf"}
+I 08/19/2011 15:11:46:775 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:11:46:775 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:11:46:775 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:11:46:775 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:11:46:775 00001698                  Net| Cookie : 
+E 08/19/2011 15:11:48:789 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:11:48:789 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:11:48:789 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:11:48:789 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:11:48:789 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:11:48:789 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:48:789 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:48:789 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:11:48:789 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:11:48:789 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:48:789 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:11:48:789 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:11:48:789 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:11:48:789 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:11:48:789 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:11:48:789 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:11:48:789 00000664 RHO Rho::RhoController| index layout
+I 08/19/2011 15:11:48:789 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/layout.erb
+I 08/19/2011 15:11:48:805 00001ecc           MainWindow| WebView: URL changed
+I 08/19/2011 15:11:48:805 00000664           HttpServer| Process URI: '/public/sencha/resources/css/sencha-touch.css'
+I 08/19/2011 15:11:48:820 00000664           HttpServer| Process URI: '/public/css/sencha.css'
+I 08/19/2011 15:11:48:820 00000664           HttpServer| Process URI: '/public/sencha/sencha-touch-debug.js'
+I 08/19/2011 15:11:48:945 00000664           HttpServer| Process URI: '/public/app/rhodes.js'
+I 08/19/2011 15:11:48:948 00000664           HttpServer| Process URI: '/public/app/account.js'
+I 08/19/2011 15:11:48:948 00000664           HttpServer| Process URI: '/public/app/contact.js'
+I 08/19/2011 15:11:48:948 00000664           HttpServer| Process URI: '/public/app/about.js'
+I 08/19/2011 15:11:48:948 00000664           HttpServer| Process URI: '/public/app/login.js'
+I 08/19/2011 15:11:48:948 00000664           HttpServer| Process URI: '/public/app/index.js'
+I 08/19/2011 15:11:49:354 00000664           HttpServer| Process URI: '/app/Saccount/alljson'
+E 08/19/2011 15:11:49:354 00000664           HttpServer| The file /app/Saccount/alljson was not found
+I 08/19/2011 15:11:49:354 00000664           HttpServer| Process URI: '/app/Scontact/alljson'
+E 08/19/2011 15:11:49:354 00000664           HttpServer| The file /app/Scontact/alljson was not found
+I 08/19/2011 15:11:49:416 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:50:461 00000664           HttpServer| Process URI: '/app/Settings/logged_in'
+I 08/19/2011 15:11:50:461 00000664                  APP| RHO serve: /app/Settings/logged_in
+I 08/19/2011 15:11:50:461 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:11:50:461 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:11:52:087 00000664           HttpServer| Process URI: '/public/images/csc_small.png'
+I 08/19/2011 15:11:54:803 00000664           HttpServer| Process URI: '/public/images/csc_small.png'
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:914 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:11:59:929 00001ecc           MainWindow| WebView: loaded 
+I 08/19/2011 15:12:13:105 00000664           HttpServer| Process URI: '/app/Settings/do_login'
+I 08/19/2011 15:12:13:105 00000664                  APP| RHO serve: /app/Settings/do_login
+I 08/19/2011 15:12:13:105 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:13:105 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:13:105 00000664                  APP| Params: {"login"=>"", "password"=>""}
+I 08/19/2011 15:12:13:105 00000664  SyncThread.cpp: 225| STOP sync
+I 08/19/2011 15:12:13:105 00000664                 Sync| addCommand: Login
+I 08/19/2011 15:12:13:105 00001698                  Net| Method: POST;Url: http://localhost:9292/application/clientlogin
+I 08/19/2011 15:12:13:105 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes\app/Settings/wait.erb
+I 08/19/2011 15:12:13:105 00001698                  Net| Cookie : 
+E 08/19/2011 15:12:15:120 00001698                  Net| Call HttpSendRequest failed. Url:http://localhost:9292/application/clientlogin. With code : 12029.Message: A connection with the server could not be established
+I 08/19/2011 15:12:15:120 00001698                 Sync| Login callback: Url :http://127.0.0.1:54950/app/Settings/login_callback; Params: . Body: error_code=1&error_message=&rho_callback=1
+I 08/19/2011 15:12:15:120 00001698                  Net| Method: POST;Url: http://127.0.0.1:54950/app/Settings/login_callback
+I 08/19/2011 15:12:15:120 00000664           HttpServer| Process URI: '/app/Settings/login_callback'
+I 08/19/2011 15:12:15:120 00000664                  APP| RHO serve: /app/Settings/login_callback
+I 08/19/2011 15:12:15:120 00000664              RhoRuby| require_compiled: Settings/controller
+I 08/19/2011 15:12:15:120 00000664              RhoRuby| require_compiled: helpers/browser_helper
+I 08/19/2011 15:12:15:120 00000664                  APP| Params: {"error_code"=>"1", "error_message"=>"", "rho_callback"=>"1"}
+I 08/19/2011 15:12:15:120 00001ecc      MainWindowProxy| navigate: 'http://127.0.0.1:54950/app'
+I 08/19/2011 15:12:15:120 00001ecc           MainWindow| WebView: loading...
+I 08/19/2011 15:12:15:120 00001698                 Sync| ThreadQueue blocked for 300 seconds...
+I 08/19/2011 15:12:15:120 00000664           HttpServer| Process URI: '/app'
+I 08/19/2011 15:12:15:120 00000664           HttpServer| Process URI: '/app/index.erb'
+I 08/19/2011 15:12:15:120 00000664                  APP| RHO serve_index: /app/index.erb
+I 08/19/2011 15:12:15:120 00000664 RHO Rho::RhoController| inst_render_index
+I 08/19/2011 15:12:15:120 00000664                  APP| eval_compiled_file : C:/Users/ffurtmueller/workspace/git/MyDailyRhodes/MyDailyRhodes/app/index.erb
+I 08/19/2011 15:12:15:120 00000664 RHO Rho::RhoController| index layout
+19:896 000005b0              RhoRuby| require_compiled: rho/rhoviewhelpers
 m/uicreated
