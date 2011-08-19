@@ -91,7 +91,7 @@ class SettingsController < Rho::RhoController
   
   #Sencha helpers
   def logged_in
-    json = JSON.generate(SyncEngine.logged_in)
+    json = ::JSON.generate(SyncEngine.logged_in)
     render :string => json
   end
     

@@ -103,7 +103,7 @@ login.LoginForm = {
 					    		    readOnly: true,
 					    		    autoCapitalize : false
 					    	    }, {
-					    			html: '<div style="text-align: center;"><img src="/icon/csc_small.png" /></div>'	    	    
+					    			html: '<div style="text-align: center;"><img src="/public/images/csc_small.png" /></div>'	    	    
 					    	    }]
 				            }]
 
