@@ -51,7 +51,7 @@ login.LoginForm = {
 				}, 
 				{
 					text: 'About',
-					ui: 'forward',
+					ui: 'action',
 					handler: function() {
 						// create the root panel
 					    new Ext.Panel({
@@ -63,35 +63,50 @@ login.LoginForm = {
 					            items: [{
 					    			xtype: 'textfield',
 					    		    name : 'name',
-					    		    label: 'CSC Mobile Solution',
-					    		    useClearIcon: true,
+					    		    style: 'font-family: verdana; font-size: 15px; font-weight: bold',
+					    		    value: 'CSC Mobile Solution',
+					    		    readOnly: true,
 					    		    autoCapitalize : false
 					    		}, {
 					    			xtype: 'textfield',
 					    		    name : 'version',
-					    		    label: 'Version: Service Release 1',
-					    		    useClearIcon: true,
+					    		    label: 'Version:',
+					    		    value: 'Service Release 1',
+					    		    readOnly: true,
 					    		    autoCapitalize : false
 					    		}, {
 					    			xtype: 'textfield',
 					    		    name : 'buildid',
-					    		    label: 'Build id: 20100917-0705',
-					    		    useClearIcon: true,
-					    		    autoCapitalize : false
-					    		}, {
-					    			xtype: 'textfield',
-					    		    name : 'copyright',
-					    		    label: '(c) Copyright CSC contributors and others 2011. All rights reserved.',
-					    		    useClearIcon: true,
+					    		    label: 'Build id:',
+					    		    value: '20100917-0705',
+					    		    readOnly: true,
 					    		    autoCapitalize : false
 					    		}, {
 					                xtype: 'textfield',
-					                name : 'website',
+					                name:  'url',
 					                label: 'Website',
-					                placeHolder: 'Visit http://www.csc.com',
-					                useClearIcon: true
+					                readOnly: true,
+					                value: 'http://www.csc.com'
+					    		}, {
+					                xtype: 'datepickerfield',
+					                name: 'date',
+					                label: 'Date',
+					                picker: { yearFrom: 2011 },
+					    		 	handler: function(picker, date) {
+					    		 		// do something with the selected date
+					    	        }
+					    		}, {
+					    			xtype: 'textfield',
+					    		    name : 'copyright',
+					    		    style: 'font-family: verdana; font-size: 8px',
+					    		    placeHolder: '(c) Copyright CSC contributors and others 2011. All rights reserved.',
+					    		    readOnly: true,
+					    		    autoCapitalize : false
+					    	    }, {
+					    			html: '<div style="text-align: center;"><img src="/icon/csc_small.png" /></div>'	    	    
 					    	    }]
 				            }]
+
 					    });
 					}
 				},

@@ -20,7 +20,7 @@ index.MainTabs = {
 Ext.setup({
     tabletStartupScreen: 'tablet_startup.png',
     phoneStartupScreen: 'phone_startup.png',
-    icon: 'icon.png',
+    icon: 'csc_tiny.png',
     glossOnIcon: false,
 
     onReady: function() {
